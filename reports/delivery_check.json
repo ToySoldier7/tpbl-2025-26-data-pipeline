@@ -1,0 +1,107 @@
+[
+  {
+    "path": "data/processed/games.csv",
+    "rows": 150,
+    "bytes": 24023,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/processed/player_game_logs.csv",
+    "rows": 4059,
+    "bytes": 2925789,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/processed/players.csv",
+    "rows": 140,
+    "bytes": 18173,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/processed/roster_memberships.csv",
+    "rows": 609,
+    "bytes": 33382,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/processed/substitution_events.csv",
+    "rows": 29806,
+    "bytes": 3640882,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/processed/target_players_2025_26.csv",
+    "rows": 128,
+    "bytes": 112618,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/processed/team_game_logs.csv",
+    "rows": 300,
+    "bytes": 118585,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/processed/teams.csv",
+    "rows": 7,
+    "bytes": 612,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/processed/tpbl_2025_26_analysis_ready.csv",
+    "rows": 4059,
+    "bytes": 3203730,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/raw/games.csv",
+    "rows": 150,
+    "bytes": 201832,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/raw/player_game_logs.csv",
+    "rows": 4059,
+    "bytes": 17924149,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/raw/players.csv",
+    "rows": 140,
+    "bytes": 2594801,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/raw/roster_memberships.csv",
+    "rows": 609,
+    "bytes": 1075091,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/raw/team_game_logs.csv",
+    "rows": 300,
+    "bytes": 367653,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/raw/teams.csv",
+    "rows": 7,
+    "bytes": 1163,
+    "sha256_verified": true,
+    "utf8_verified": true
+  }
+]

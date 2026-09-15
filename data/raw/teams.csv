@@ -1,0 +1,8 @@
+season,team_id,id,gohoops_id,name,is_real_team,status,source_json
+2025-26,8,8,946,臺北台新戰神,True,ACTIVE,"{""id"":8,""gohoops_id"":946,""name"":""臺北台新戰神"",""is_real_team"":true,""status"":""ACTIVE""}"
+2025-26,7,7,945,新北國王,True,ACTIVE,"{""id"":7,""gohoops_id"":945,""name"":""新北國王"",""is_real_team"":true,""status"":""ACTIVE""}"
+2025-26,6,6,944,新北中信特攻,True,ACTIVE,"{""id"":6,""gohoops_id"":944,""name"":""新北中信特攻"",""is_real_team"":true,""status"":""ACTIVE""}"
+2025-26,5,5,943,桃園台啤永豐雲豹,True,ACTIVE,"{""id"":5,""gohoops_id"":943,""name"":""桃園台啤永豐雲豹"",""is_real_team"":true,""status"":""ACTIVE""}"
+2025-26,4,4,942,新竹御嵿攻城獅,True,ACTIVE,"{""id"":4,""gohoops_id"":942,""name"":""新竹御嵿攻城獅"",""is_real_team"":true,""status"":""ACTIVE""}"
+2025-26,3,3,941,福爾摩沙夢想家,True,ACTIVE,"{""id"":3,""gohoops_id"":941,""name"":""福爾摩沙夢想家"",""is_real_team"":true,""status"":""ACTIVE""}"
+2025-26,2,2,940,高雄全家海神,True,ACTIVE,"{""id"":2,""gohoops_id"":940,""name"":""高雄全家海神"",""is_real_team"":true,""status"":""ACTIVE""}"

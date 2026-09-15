@@ -1,0 +1,2489 @@
+{
+  "season": {
+    "id": 2,
+    "gohoops_id": 213,
+    "name": "2025-2026 賽季",
+    "status": "COMPLETED",
+    "started_at": "2025-10-01 00:00:00",
+    "ended_at": "2026-05-31 00:00:00"
+  },
+  "divisions": [
+    {
+      "id": 8,
+      "gohoops_id": 357,
+      "gohoops_event_id": 490,
+      "name": "熱身賽",
+      "status": "COMPLETED"
+    },
+    {
+      "id": 9,
+      "gohoops_id": 358,
+      "gohoops_event_id": 490,
+      "name": "例行賽",
+      "status": "COMPLETED"
+    },
+    {
+      "id": 11,
+      "gohoops_id": 466,
+      "gohoops_event_id": 490,
+      "name": "季後挑戰賽",
+      "status": "COMPLETED"
+    },
+    {
+      "id": 12,
+      "gohoops_id": 467,
+      "gohoops_event_id": 490,
+      "name": "季後賽",
+      "status": "COMPLETED"
+    },
+    {
+      "id": 35,
+      "gohoops_id": 576,
+      "gohoops_event_id": 490,
+      "name": "冠軍賽",
+      "status": "COMPLETED"
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://api.tpbl.basketball/api/seasons",
+      "retrieved_at": "2026-09-14T14:31:43.230743+00:00",
+      "sha256": "564e81fd2f3fd9e38e10acb9b4576091c89a4f976cc5ea30f65f2df17d856a7f"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/events/2/divisions",
+      "retrieved_at": "2026-09-14T14:31:44.473956+00:00",
+      "sha256": "605f127038ea85afa4671544ddeab6c1139d023ddf0b7fad21997beffa8b59d7"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/events/2/teams",
+      "retrieved_at": "2026-09-14T14:31:45.738360+00:00",
+      "sha256": "c8b0126824710fd1fb05017d3dd162859f8c3c8e3f057045857ed47147d041bd"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/seasons/2/games",
+      "retrieved_at": "2026-09-14T14:31:47.472839+00:00",
+      "sha256": "b443d8ea098e528f4e721630d1ef935df5f38710c74ba2e99397b639abd14d70"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/divisions/8/players",
+      "retrieved_at": "2026-09-14T14:31:49.734595+00:00",
+      "sha256": "d563e8f525ec40fa1cbb8ec676557367f9af10e7f4337795c6b111c907d2daa4"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/divisions/9/players",
+      "retrieved_at": "2026-09-14T14:31:50.609242+00:00",
+      "sha256": "bbf665603e2555b5a78b9d80ccebf7830d08353c79cd8bd0bb4a1255fe913807"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/divisions/11/players",
+      "retrieved_at": "2026-09-14T14:31:52.622555+00:00",
+      "sha256": "294acc3272c27bed040440c103c95a0e3ee4546e654a839a028d588583b44e0d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/divisions/12/players",
+      "retrieved_at": "2026-09-14T14:31:53.737154+00:00",
+      "sha256": "294acc3272c27bed040440c103c95a0e3ee4546e654a839a028d588583b44e0d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/divisions/35/players",
+      "retrieved_at": "2026-09-14T14:31:55.456964+00:00",
+      "sha256": "294acc3272c27bed040440c103c95a0e3ee4546e654a839a028d588583b44e0d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/1",
+      "retrieved_at": "2026-09-14T14:45:12.799462+00:00",
+      "sha256": "203b851baa510e15b1f4d22d152d10e76fb84f61383ad501394eb381982cb267"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/2",
+      "retrieved_at": "2026-09-14T14:45:14.042249+00:00",
+      "sha256": "b4edf1d8124e2b4f12a5de2b701b6282bc1a9da6c99615cdfe55270bb8b3cf38"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/3",
+      "retrieved_at": "2026-09-14T14:45:15.330304+00:00",
+      "sha256": "876493e5e55e1e09aadbb11a4890c642a1b50d06e1fe2b4a6e5bfee5fa9ded85"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/4",
+      "retrieved_at": "2026-09-14T14:45:16.494890+00:00",
+      "sha256": "88992aac7b00b886f7fbacf81e2fb79f78ed6637be790e563c291e9363528177"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/5",
+      "retrieved_at": "2026-09-14T14:45:17.744900+00:00",
+      "sha256": "ebc301c218081eae57edcd9d30f5c717d5ac2734749dbecb0dc9cd0fcaf7c589"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/7",
+      "retrieved_at": "2026-09-14T14:45:18.982584+00:00",
+      "sha256": "5b93dc337ea6213dc2f03cb77820c9b8150c6ec5ebe9534bf3f3fcefc4c3dad4"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/9",
+      "retrieved_at": "2026-09-14T14:45:20.310792+00:00",
+      "sha256": "de1c335904332a5ae4eba7bee52cda76d3ff692c42928584cdf2f78144af1f09"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10",
+      "retrieved_at": "2026-09-14T14:45:21.542206+00:00",
+      "sha256": "01ad04fef8f93eac4fda01f8b7a10a40a975ce071960174040c41f6d30cc4027"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/11",
+      "retrieved_at": "2026-09-14T14:45:22.789599+00:00",
+      "sha256": "bcec5ac81a748ac8f00b825c87fc68e978bb97874cfa13943ad1d019d5a32841"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/12",
+      "retrieved_at": "2026-09-14T14:45:24.017613+00:00",
+      "sha256": "6c38f019117d1e655cd95bb17558b887f387dfc7c34034d611501c39a3e21548"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/13",
+      "retrieved_at": "2026-09-14T14:45:25.283066+00:00",
+      "sha256": "2113182999359a3dea2dc64ab21c1587ac579625408333745c4747479477d987"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/14",
+      "retrieved_at": "2026-09-14T14:45:26.504935+00:00",
+      "sha256": "ab0683506f5c0b7060a8337b42e2bb8520a686a6208f278ea8088a75915a30a4"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/16",
+      "retrieved_at": "2026-09-14T14:32:00.392143+00:00",
+      "sha256": "4aeaf4c7eb4793204e2109dc389dc656321f681c85ee6f81fccdc27addf92261"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/19",
+      "retrieved_at": "2026-09-14T14:45:27.479694+00:00",
+      "sha256": "be9e3b9d1e9ef3785b0261533efec4dd0d20424faba6580ea3aa097732e9ad2d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/21",
+      "retrieved_at": "2026-09-14T14:45:28.961375+00:00",
+      "sha256": "70ec0f5605cd002f1eb9ba764fbdc602855d3e7d5f12fb206c37cb727f0aed83"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/22",
+      "retrieved_at": "2026-09-14T14:45:29.983131+00:00",
+      "sha256": "fab845c639715eefdae5baa55c04e3a7d1eb395769dc9759b1be97f7d0ac52e3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/23",
+      "retrieved_at": "2026-09-14T14:45:31.470154+00:00",
+      "sha256": "6f000fd0feade854cc621fd313d680da558ea1a63afc33d2549aaca902ca2111"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/24",
+      "retrieved_at": "2026-09-14T14:45:32.715119+00:00",
+      "sha256": "be9b2d0aeaac762e72574c4afea7b33731a8397be7426cf7b6795a6f1a86339c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/25",
+      "retrieved_at": "2026-09-14T14:45:33.733379+00:00",
+      "sha256": "0e2c20ee288a210ecf3a1f9a3b8cadbb64c1fa8e02b9b89f07db9ad9293a7853"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/26",
+      "retrieved_at": "2026-09-14T14:45:35.192901+00:00",
+      "sha256": "4ff221472c9634bde896910f426aab37e39b1da0f000853fbb600fc8ccef073d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/28",
+      "retrieved_at": "2026-09-14T14:45:36.453720+00:00",
+      "sha256": "bacf05670f00d0fb9b87154cf601b126a46bb8181052fd274cdbb1014c230ffc"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/29",
+      "retrieved_at": "2026-09-14T14:45:37.715667+00:00",
+      "sha256": "92c5cada78ba5e90a73e3a7ee5c231da84aff3f59686e92b2621b3ec284d6b2b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/32",
+      "retrieved_at": "2026-09-14T14:45:38.735746+00:00",
+      "sha256": "221b8f8c1f2ce223288376fc6fca5a4e460d7555578854a60453d65756e42f52"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/34",
+      "retrieved_at": "2026-09-14T14:45:40.233505+00:00",
+      "sha256": "fcbafc7688ff410f0a85eeec6742d9512272a4416fadedcd6913c50d870e3726"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/35",
+      "retrieved_at": "2026-09-14T14:45:41.449767+00:00",
+      "sha256": "db3e08bfb3df50fdf5c41fd4783614d6ae7831af84774fe2c42d39875730ae49"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/38",
+      "retrieved_at": "2026-09-14T14:45:42.687006+00:00",
+      "sha256": "e847523bb52082bbd820a652ba2e9042d82cfe880982215ebcd4b6b32da48826"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/39",
+      "retrieved_at": "2026-09-14T14:45:43.924626+00:00",
+      "sha256": "db0d948b64d6802c6835d7eae41c69413889a46f92a7b93bc8e6d26d505c978b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/40",
+      "retrieved_at": "2026-09-14T14:45:45.225470+00:00",
+      "sha256": "9dd945c9485b8c1e988d491b03fee7c3fe7cdd171eb848c2a9cd63850b347b25"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/43",
+      "retrieved_at": "2026-09-14T14:45:46.472131+00:00",
+      "sha256": "3fec680bc9472cff87eaa483520d5294ceb1d1ac58612068e0a0ec5c26003228"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/44",
+      "retrieved_at": "2026-09-14T14:45:47.800742+00:00",
+      "sha256": "89b53d67ccbc5b390580e8b8d0769f270a768b420725e6244daa7b664285d908"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/45",
+      "retrieved_at": "2026-09-14T14:45:48.994728+00:00",
+      "sha256": "9f48f0941b3bf6a15f7459282d9560196a5e7f491a087df278b232525f4be832"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/47",
+      "retrieved_at": "2026-09-14T14:45:50.217940+00:00",
+      "sha256": "196b8a0c288462d483e47d7c56be2f418a5ca8c6725154fdf41791f9a9a6b095"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/48",
+      "retrieved_at": "2026-09-14T14:45:51.454434+00:00",
+      "sha256": "43baad0f367e2f0cc58fc469264b7e377faa90f0b9871448eb1460852f9a880c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/51",
+      "retrieved_at": "2026-09-14T14:45:52.724627+00:00",
+      "sha256": "d4ac27b55a9d2654378337b23f6c4646a342302febcf1d3f1207ab44665a375c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/54",
+      "retrieved_at": "2026-09-14T14:45:53.996903+00:00",
+      "sha256": "507b798fd3d00a76aabd683f5b6ff7bd48d6a0d10f8b4f5120dcc37237110540"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/55",
+      "retrieved_at": "2026-09-14T14:45:55.186080+00:00",
+      "sha256": "d16ac8e46579c24653da28063316dcbe4b936ca4f46543bd72e470f97bb00963"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/56",
+      "retrieved_at": "2026-09-14T14:45:56.533946+00:00",
+      "sha256": "fcfbe18c6d3e828b096e7d8a72ce17d91b0fb4549acdcf845c94680772ad1dba"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/57",
+      "retrieved_at": "2026-09-14T14:45:57.727700+00:00",
+      "sha256": "6fd26b45fd3f9652bc656debd88df81f927fa09a9b90079955a1f0430ca8dfae"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/58",
+      "retrieved_at": "2026-09-14T14:45:59.011920+00:00",
+      "sha256": "834a7221c091dec16ad6319e0439de63ee20680ad4e5fd6abb9786cb615b1f56"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/60",
+      "retrieved_at": "2026-09-14T14:46:00.543764+00:00",
+      "sha256": "5df94db7b5ff4167e05f4d8ad456684967e53c7f7b1e67cb43dab9ef5d388458"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/62",
+      "retrieved_at": "2026-09-14T14:46:01.236792+00:00",
+      "sha256": "88f7e8df097ad11b5804058b33b65c2e99b26b02dbad95370f80b46374fd4001"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/63",
+      "retrieved_at": "2026-09-14T14:46:32.118748+00:00",
+      "sha256": "9b078b0a252c488d8430815e473898a119bc2b386eda4f418759845840ca90dd"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/64",
+      "retrieved_at": "2026-09-14T14:46:33.358896+00:00",
+      "sha256": "ae0b8bc5eb6377805f9f80372a3ca8db3774581824886192c228298cfaf904b9"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/68",
+      "retrieved_at": "2026-09-14T14:31:57.707935+00:00",
+      "sha256": "0c08cd0331ff8bc01900fe7035347a5e778a0075b6db592dceb21b50715d84a3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/71",
+      "retrieved_at": "2026-09-14T14:46:34.863108+00:00",
+      "sha256": "c995aa0844e30928bd7a00cd9d8cdaf710086e1775ed69bb657639475542f57c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/73",
+      "retrieved_at": "2026-09-14T14:46:36.062851+00:00",
+      "sha256": "0eba54f347b7b9a1b7347ec9a68ac51a9234e8e287913873b0383f3da06aa1ad"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/75",
+      "retrieved_at": "2026-09-14T14:46:37.452632+00:00",
+      "sha256": "18516bb18877ca89fba493637ae644f750ef8fe92b6d367cfb1769c5fd7607a3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/76",
+      "retrieved_at": "2026-09-14T14:46:38.648185+00:00",
+      "sha256": "3ab5cf7ac166940ba80d043f730bc7f183a1eec76118d06859f7c90f9f428d31"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/77",
+      "retrieved_at": "2026-09-14T14:46:39.835844+00:00",
+      "sha256": "43588b28ba2451cf20fdf119b4206b508d165757a72b39da5d817b1d1b9bfc0c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/78",
+      "retrieved_at": "2026-09-14T14:46:41.108497+00:00",
+      "sha256": "100bd6aa5e6e0a2fb9ffe767e3fb0536fa9866c6a7c87123553fe7376d8c3dc0"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/79",
+      "retrieved_at": "2026-09-14T14:46:42.336226+00:00",
+      "sha256": "c981bd99af5d41519444fe19638082e755adffd04683ae6d4732be9f9c77c58e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/80",
+      "retrieved_at": "2026-09-14T14:46:43.474219+00:00",
+      "sha256": "445a06173c5af374c9e604feac03bc6de5cebb96621f58ba5ccd9cbef388d529"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/82",
+      "retrieved_at": "2026-09-14T14:46:44.959835+00:00",
+      "sha256": "5aabd70c2135b0db47279ab397d59084b6a7e6800ad55f5df892ea9b7ee61d46"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/83",
+      "retrieved_at": "2026-09-14T14:46:46.094586+00:00",
+      "sha256": "faeddb79ff2ffd5891fce26c75be78bc147e5e5aab0fd748d627c66d55136801"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/84",
+      "retrieved_at": "2026-09-14T14:46:47.180854+00:00",
+      "sha256": "db6030aa982c6f4dbe9350941783327c1b5b49fa3dd3a69121073927280cba43"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/86",
+      "retrieved_at": "2026-09-14T14:46:48.667279+00:00",
+      "sha256": "5a6047220aa661bc4ab0a55a11f8558dca85b0e488ee5d1dbf57a54af4e0ea4c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/87",
+      "retrieved_at": "2026-09-14T14:46:49.783695+00:00",
+      "sha256": "c30c6180d3a652cc62d3e5dd43de14e2ff0110671c37ac006f335fadcb0dcd20"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/88",
+      "retrieved_at": "2026-09-14T14:46:51.159293+00:00",
+      "sha256": "3da26787e271d06b04e5a59803ebb94b26d747eb2ccc9e582b43ccf348f1abf1"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/89",
+      "retrieved_at": "2026-09-14T14:46:52.407940+00:00",
+      "sha256": "a4201046f8ec684afca5bd03016d37adce3876ab67b143366f946eb2fdb48748"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/90",
+      "retrieved_at": "2026-09-14T14:46:53.453154+00:00",
+      "sha256": "8ae0f7b4f48b089286b97e21d2d9e69f59754bc4e2fba91bb950a02a228dddae"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/91",
+      "retrieved_at": "2026-09-14T14:46:54.842768+00:00",
+      "sha256": "3deb6d2d33b39efaaaa26c5b244a69460d9f496bd41bf48655dd6e663f04d888"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/95",
+      "retrieved_at": "2026-09-14T14:46:56.100333+00:00",
+      "sha256": "d7c507b21f54e84e618d82342af402800fb2ab332d39f95b47b73e287bc8dbb8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/97",
+      "retrieved_at": "2026-09-14T14:46:57.386032+00:00",
+      "sha256": "215a82d9eb43e33cb1553f501811878f18576ea82192de4d803c022e53fc4369"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/101",
+      "retrieved_at": "2026-09-14T14:47:44.834564+00:00",
+      "sha256": "f6f7565b017cc2f885a5df559c4ed5c84765849b256ac1667b3016be11366e09"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/103",
+      "retrieved_at": "2026-09-14T14:47:46.070397+00:00",
+      "sha256": "6d4ab93ba2e1147548881e7371c114ec45e965f7b4658ea4c1d8724416ce4372"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/104",
+      "retrieved_at": "2026-09-14T14:47:47.281466+00:00",
+      "sha256": "01728701df843f5e159f28da1042d4a837462a2f503fb68932d98d0617c8c6b6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/106",
+      "retrieved_at": "2026-09-14T14:47:48.560729+00:00",
+      "sha256": "2d349c370f98b05c0784a39433dc8e0955ce7cf5454a2a90e7a6f9adc262d752"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/107",
+      "retrieved_at": "2026-09-14T14:47:49.906399+00:00",
+      "sha256": "9e023c9f83d47e6321e4fad71ee101337d195169a2c998eaee3b27261b133d9b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/108",
+      "retrieved_at": "2026-09-14T14:47:50.823535+00:00",
+      "sha256": "2bb90a285d8670fd66ee07e5b6a51bd61202b7d26af25030d00631e3f733f66a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/109",
+      "retrieved_at": "2026-09-14T14:47:52.301826+00:00",
+      "sha256": "1d9427c5b557e68154fe26137f539008c71821c31f39c2d372e2fe2085bfbd4a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/110",
+      "retrieved_at": "2026-09-14T14:47:53.578652+00:00",
+      "sha256": "0f2e08dcce4f3cb997c4e4b928409a9838d68efcb22dfc7460dfef7f8f7e3abb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/111",
+      "retrieved_at": "2026-09-14T14:47:54.607584+00:00",
+      "sha256": "4d12a034dd865e55ab3ec531c22a5a6f574156fccb1c24bfdb9a6b82fd4c07d8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/113",
+      "retrieved_at": "2026-09-14T14:47:56.114858+00:00",
+      "sha256": "634157fdfd0d263808b3cf628d1c9a45a92daa7b869d2b905ed81780f4135aac"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/116",
+      "retrieved_at": "2026-09-14T14:47:57.386902+00:00",
+      "sha256": "e29f4290bcde2eb9cf15a2eb99fbc2be2540c0f45f8e9baf57faf76c85585fa8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/118",
+      "retrieved_at": "2026-09-14T14:47:58.778561+00:00",
+      "sha256": "335c1bc78516924107e6219a410cf17c5837d376836d6e223e89a0cd437ad0b9"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/119",
+      "retrieved_at": "2026-09-14T14:47:59.999700+00:00",
+      "sha256": "89b79137f477c7b4ec0a600952b8dcd113f6abd5086bd901da53c005c438bf42"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/121",
+      "retrieved_at": "2026-09-14T14:48:01.076881+00:00",
+      "sha256": "eee4a3210c383de45b74ec8c095f2d8b9f1cb077c2f617d20e15ca2fcb1cac4d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/122",
+      "retrieved_at": "2026-09-14T14:48:02.298147+00:00",
+      "sha256": "ec7995e9cb4d227cc4a957f72424e148124bdc9d4da7c08b548a01d0ea778bc5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/123",
+      "retrieved_at": "2026-09-14T14:48:03.345838+00:00",
+      "sha256": "e478014c7d330a055bc0700adcc1719083db55bf4519699ab7210c0c234ff806"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/124",
+      "retrieved_at": "2026-09-14T14:48:04.800700+00:00",
+      "sha256": "8579d8dbb71f758ccf9de55e9d90c4594ea0140fc3d6c150d9898a186d6ba17b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/867",
+      "retrieved_at": "2026-09-14T14:48:06.057671+00:00",
+      "sha256": "2580af6d696fd71bdf0777ab9491b0b9bffe3e614e51223759406328b3ade330"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/3129",
+      "retrieved_at": "2026-09-14T14:48:11.839792+00:00",
+      "sha256": "f39cd43c42e29a62f9f4f7d623b5fbf7a6189a354d3fb50b7c13a52aef922254"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/4181",
+      "retrieved_at": "2026-09-14T14:48:12.734259+00:00",
+      "sha256": "2679931f709501c38e847b410351f36236b994e8b5395bab7da78438daeca552"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/5948",
+      "retrieved_at": "2026-09-14T14:48:13.923065+00:00",
+      "sha256": "40b3ed51c0169c0e427b6086ef4cafa127431ea4e22f89b06d897aa765826479"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/8889",
+      "retrieved_at": "2026-09-14T14:48:15.187510+00:00",
+      "sha256": "d453344fef8eeec174fcfdc45344ccc07eab9d06980265e076bcd188a148ccbb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10860",
+      "retrieved_at": "2026-09-14T14:31:56.381505+00:00",
+      "sha256": "522a6d68763a6001c44a6e64486bbe112ecd9e100428eb31073ade5a1d47c9dd"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10861",
+      "retrieved_at": "2026-09-14T14:31:58.886359+00:00",
+      "sha256": "b89f7c6ca545ce01fe04eea263dc83cd57622735d1d84cda2a21097b5fad032c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10862",
+      "retrieved_at": "2026-09-14T14:48:45.678721+00:00",
+      "sha256": "970ed62af9c4d320d1df3d21ce577ff0a100dc9d88653c3f24ab0ab4a315e7b5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10863",
+      "retrieved_at": "2026-09-14T14:48:47.037853+00:00",
+      "sha256": "5dae7fdcf1485a4928082664d10d9facb9987dca8c98cd8286ae226457d6cd48"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10864",
+      "retrieved_at": "2026-09-14T14:48:48.297475+00:00",
+      "sha256": "09b28442f923f8010adb4f71698bc39eee78aa81533656a370800a0bf8d77793"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10865",
+      "retrieved_at": "2026-09-14T14:48:49.561654+00:00",
+      "sha256": "7dd04db5d44d02201a5e1c76040d01ca3e4ee5788e2539ddb689466bd9af4eb2"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10866",
+      "retrieved_at": "2026-09-14T14:48:50.822991+00:00",
+      "sha256": "dee4be73eb98e968615b772dd64f196988a997a80267ace9510d664080a59175"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10867",
+      "retrieved_at": "2026-09-14T14:48:52.228115+00:00",
+      "sha256": "4dcde200c721de372c8850ad04573795f47101d1dc922b70c5b1c2dd7f52fb75"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10868",
+      "retrieved_at": "2026-09-14T14:48:53.287011+00:00",
+      "sha256": "5fb8a4e7da42e97375d150e322360e4b794ea8348e7f8cf8c71014b05ebda833"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10869",
+      "retrieved_at": "2026-09-14T14:48:54.531580+00:00",
+      "sha256": "31962964c72a5395770d30f6848e2bcdc4f78b33c31a359651305e15f223312e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10870",
+      "retrieved_at": "2026-09-14T14:48:55.783407+00:00",
+      "sha256": "4d4389035d8a95b2822cd38105c9a56da6cf15efe43089f505acfbf812615a1c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10871",
+      "retrieved_at": "2026-09-14T14:48:57.070720+00:00",
+      "sha256": "c58e003b0d505f019771968033791bb4a80d935f483e0cdd8fc2b7d4b4184a17"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10872",
+      "retrieved_at": "2026-09-14T14:48:58.354465+00:00",
+      "sha256": "7cceff779f033b2ec3af7e62a341c9a79cdb6cdb7e20e04dd0936dc32d2b30a8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10873",
+      "retrieved_at": "2026-09-14T14:48:59.657201+00:00",
+      "sha256": "6d5503e2a68af477d02194dbd8e38e230824bab94742130a62c6ed7213a6c613"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10874",
+      "retrieved_at": "2026-09-14T14:49:00.863009+00:00",
+      "sha256": "df6ae3bf8a30eff3414bd9dfcd7f470775f066098f7d43d30b9137f2f20c771d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10875",
+      "retrieved_at": "2026-09-14T14:49:02.055024+00:00",
+      "sha256": "605825535b4e0cceca411b4f49e5e09b793de1fd900e5aa556c226c95eaa655e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10876",
+      "retrieved_at": "2026-09-14T14:49:03.099901+00:00",
+      "sha256": "fff4db9157859164c69aa2fe54e9174d3eb6501ee053925671204eaf001e1b4a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10877",
+      "retrieved_at": "2026-09-14T14:49:04.602029+00:00",
+      "sha256": "69ebc8b6660b4abf6ce478f6e594d26a7b8d1973067f6352f1cdce2461d8f442"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10878",
+      "retrieved_at": "2026-09-14T14:49:05.601163+00:00",
+      "sha256": "37ca8a1e8eec5eb0128119c625d4243949d3e6f480ef58603ca61e1d03617a3a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10879",
+      "retrieved_at": "2026-09-14T14:49:07.042168+00:00",
+      "sha256": "557333de990ea9dedd53dfd7090d6a6063314eb04268701b2da3c3790f1b6262"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10880",
+      "retrieved_at": "2026-09-14T14:49:08.305367+00:00",
+      "sha256": "ab024ef5edf5ba673aa196d98762cc224762e860c55d9f45dae002b51f06155d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10881",
+      "retrieved_at": "2026-09-14T14:49:09.534867+00:00",
+      "sha256": "8719a6a19b353c4e868b93ff712c3e7a58617a2e565559366538fe332c037c81"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10882",
+      "retrieved_at": "2026-09-14T14:49:10.787791+00:00",
+      "sha256": "5703599d0d13dd00c4947a4b65b5ac548bf5a6902a69713b3659ee5335cc2d45"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10883",
+      "retrieved_at": "2026-09-14T14:49:11.885162+00:00",
+      "sha256": "0d477537f41081770c657185b73aaac4b786be334e49f20ef2ae44e43d71ba0a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10884",
+      "retrieved_at": "2026-09-14T14:49:13.399448+00:00",
+      "sha256": "845fe3da40790ba1cddb4910d9167febb727ef937445cd4baf6157217e68fd81"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10886",
+      "retrieved_at": "2026-09-14T14:50:00.947955+00:00",
+      "sha256": "899286e0dda917b8152eaec14cfd4132b8dba4b3a9bdb57bb7a15e67f7821141"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10887",
+      "retrieved_at": "2026-09-14T14:50:02.239701+00:00",
+      "sha256": "c019b377c5c891b5aefe9882e294d128b2278a3790be8fab904ab31d52c682aa"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10888",
+      "retrieved_at": "2026-09-14T14:50:03.432381+00:00",
+      "sha256": "272d12dd30f3b15599283240eb5ecfb4362f031271acc14235ef5e93e5d62568"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10889",
+      "retrieved_at": "2026-09-14T14:50:04.369085+00:00",
+      "sha256": "0dbe72ac769376bff9317efa2fc0f01fe1de6a18a8109b202fd4c777cbcfbdf8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10890",
+      "retrieved_at": "2026-09-14T14:50:05.828178+00:00",
+      "sha256": "48084b80b389d4a3c06b04388e659a72232ed1cdcc6d1be09ffef2b0ad63f47c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10891",
+      "retrieved_at": "2026-09-14T14:50:07.107343+00:00",
+      "sha256": "cfaf15301bfce3d5de394cffa844b7f13f337f41672b185c102fcaf805ab1fc6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10892",
+      "retrieved_at": "2026-09-14T14:50:08.336316+00:00",
+      "sha256": "4db073ffa70dd5706bdc0a9d69368773569749d1047a7c2d988cf2289b8b7e4c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10893",
+      "retrieved_at": "2026-09-14T14:50:09.579496+00:00",
+      "sha256": "18cae0f0bdbf50e9cee7870fe7f7198f13faffab272c7665f0b25dd9221c606e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10894",
+      "retrieved_at": "2026-09-14T14:50:10.611710+00:00",
+      "sha256": "5a2d25ded0ab10d4ecb1f5bac8ca1b44dadd9336c9ce20ef1a6a6b2a8cc39e95"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/12668",
+      "retrieved_at": "2026-09-14T14:50:12.047580+00:00",
+      "sha256": "81b79372b8ff72fcd575f4c4f81d645d1685d4137da6b038835ae9e21cb2e4d4"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/12908",
+      "retrieved_at": "2026-09-14T14:50:13.383606+00:00",
+      "sha256": "b7d476d24dcc3c2dbf71df756d7bd0901e514ae520ee9744586cf893cfcd8d10"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/13029",
+      "retrieved_at": "2026-09-14T14:50:14.621746+00:00",
+      "sha256": "fe6b14a9fe542dfc799bdc43abfb4884c6045e009eb73d5e6d7bf0dfeb609f2a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/13275",
+      "retrieved_at": "2026-09-14T14:50:15.626264+00:00",
+      "sha256": "1c11f13af9cc45cbd434905d69cbca11a85ef0a3616cbfc9a233ce79f21df84a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/13399",
+      "retrieved_at": "2026-09-14T14:50:17.286861+00:00",
+      "sha256": "898939618ee57eedcb38b224d53cd6af81e2e329b4de8b627e1dc968d1428d5d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/13400",
+      "retrieved_at": "2026-09-14T14:50:18.350167+00:00",
+      "sha256": "eae5b67bc46f8e67765032ea1685729e628a77b24954d84aeb64b2dd750ad4e3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/13777",
+      "retrieved_at": "2026-09-14T14:50:19.539476+00:00",
+      "sha256": "301e8e5aabf4e4965489a0b5eefcdb6b088e90380c6a19756eb61008224cbac8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/13778",
+      "retrieved_at": "2026-09-14T14:50:20.810800+00:00",
+      "sha256": "01eb3dcc0904fc4e1775b7b59ff4ecd76ad5ac50bc4c5da57c6c52473f87a9f2"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/13906",
+      "retrieved_at": "2026-09-14T14:50:22.102212+00:00",
+      "sha256": "e16db51f4552ce7eb2ae6048dd9993ab21263d6fd984bcbbb62f0bd02988a149"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/13907",
+      "retrieved_at": "2026-09-14T14:50:23.366851+00:00",
+      "sha256": "1d311fcde87b000cbc83ab63c6723e238b219411dc57380e510161a8b0c96f6e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/14037",
+      "retrieved_at": "2026-09-14T14:50:24.614870+00:00",
+      "sha256": "9dffd6d1921a4e78b383721ac42e2f7c40e5904b35233d9d50e1e182a951f878"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/14038",
+      "retrieved_at": "2026-09-14T14:50:25.862822+00:00",
+      "sha256": "c0c0b1103f1619fa883a57a0cedce298f4b093f6fd224794c8a80225019ef206"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/14303",
+      "retrieved_at": "2026-09-14T14:50:27.113300+00:00",
+      "sha256": "dd47ffb423fdb481f48110af48fd5148511cfe991ecbfbff978aca3a64cac734"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/14707",
+      "retrieved_at": "2026-09-14T14:51:14.629749+00:00",
+      "sha256": "e6bda4c65229261d218ccb6b83433ce74d6ad21510bc60f5f94b42dd26af0d3c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/14843",
+      "retrieved_at": "2026-09-14T14:51:15.839333+00:00",
+      "sha256": "e3faf6b195858990e0e4e94535528ab0c81a7169268f2a15ca18ca1e18d1c49f"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/14844",
+      "retrieved_at": "2026-09-14T14:51:17.106364+00:00",
+      "sha256": "b580dab65f23ac2eeb51e88f6eab681e90277df5ba879cf6d11856d006fb97e6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/14845",
+      "retrieved_at": "2026-09-14T14:51:18.332069+00:00",
+      "sha256": "62589b217274b6e2bb4aaec78f0ed4de10ca6ec78747a5ac02399b06db0e7829"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/14982",
+      "retrieved_at": "2026-09-14T14:51:19.433421+00:00",
+      "sha256": "81008875b61363c222c21a5851541e96f9f1168f691ec0f7bd557e3490246eec"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10860/games/stats?division_id=8",
+      "retrieved_at": "2026-09-14T14:32:01.397401+00:00",
+      "sha256": "d4cf4b56fa89ad715ec6969fc26ce5093c7cdd828ca8213a1ceeb600144b781d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10860/games/stats?division_id=9",
+      "retrieved_at": "2026-09-14T14:32:02.980815+00:00",
+      "sha256": "60ebb7bdda1584525c9cf5ed9da02b1408f2ad22ce30fe30908bcb163c230bfd"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10860/games/stats?division_id=11",
+      "retrieved_at": "2026-09-14T14:32:03.665297+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10860/games/stats?division_id=12",
+      "retrieved_at": "2026-09-14T14:32:05.145265+00:00",
+      "sha256": "eb0c18e267f32112bab82d7c38483dd32469faeb065db6efdd06c91cc4c679de"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10860/games/stats?division_id=35",
+      "retrieved_at": "2026-09-14T14:32:06.297100+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/68/games/stats?division_id=8",
+      "retrieved_at": "2026-09-14T14:32:07.620420+00:00",
+      "sha256": "fe00a203d6d081c61216681790610ef8e33f5ab3d048933091675d1f58a669ed"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/68/games/stats?division_id=9",
+      "retrieved_at": "2026-09-14T14:32:09.367628+00:00",
+      "sha256": "947ac9d40fcafc30821f598a9ea874d526e96159a8879490a8214cc95e3f006a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/68/games/stats?division_id=11",
+      "retrieved_at": "2026-09-14T14:32:10.061923+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/68/games/stats?division_id=12",
+      "retrieved_at": "2026-09-14T14:32:11.613788+00:00",
+      "sha256": "d4dc9bf720e4d163c54728275b6deaeeabf8be47bd89c45a99ea74a88d1b0f9d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/68/games/stats?division_id=35",
+      "retrieved_at": "2026-09-14T14:32:12.567366+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10861/games/stats?division_id=8",
+      "retrieved_at": "2026-09-14T14:32:14.229210+00:00",
+      "sha256": "5714e302a8a2b3c9939cb314d826a141c829861d44b6e0119bb1210548e45cbd"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10861/games/stats?division_id=9",
+      "retrieved_at": "2026-09-14T14:32:15.411901+00:00",
+      "sha256": "0623c4e0c8dda9a07bcdbfb9fbf5bccb0fe110618d4532bad688387ad6181d47"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10861/games/stats?division_id=11",
+      "retrieved_at": "2026-09-14T14:32:16.331496+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10861/games/stats?division_id=12",
+      "retrieved_at": "2026-09-14T14:32:17.801548+00:00",
+      "sha256": "1950620d12283f5f4eb9df5dd2d37d191ef373672b105f96ef11cd3cd2c305d3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/10861/games/stats?division_id=35",
+      "retrieved_at": "2026-09-14T14:32:18.807987+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/16/games/stats?division_id=8",
+      "retrieved_at": "2026-09-14T14:32:20.322159+00:00",
+      "sha256": "90fb35900f8f26cd0541e51e28b7f183924ace73a8cc03d8e8031afae13711fa"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/16/games/stats?division_id=9",
+      "retrieved_at": "2026-09-14T14:32:21.750967+00:00",
+      "sha256": "fdbf70610a1c494c83ec7507ace55c731f0f759e618c543ffdbd6480abb43755"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/16/games/stats?division_id=11",
+      "retrieved_at": "2026-09-14T14:32:22.577638+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/16/games/stats?division_id=12",
+      "retrieved_at": "2026-09-14T14:32:24.221875+00:00",
+      "sha256": "bd7c60f2a4b1f3fd3df096dcac6d049f5469f62f4c64cae3c6150c6e5e9acb7b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/players/16/games/stats?division_id=35",
+      "retrieved_at": "2026-09-14T14:32:25.082521+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/teams/5/games/stats?division_id=8",
+      "retrieved_at": "2026-09-14T14:32:26.517600+00:00",
+      "sha256": "e87f4559f2e9bae8853a78f8d48eabdfbb2ecd7fc07b393cf47a1a9e91b95b13"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/teams/5/games/stats?division_id=9",
+      "retrieved_at": "2026-09-14T14:32:27.039731+00:00",
+      "sha256": "18b00e746389bf1a3f6f857600ea7c658b33e1a77ee30f32cdfd46bef876e643"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/teams/5/games/stats?division_id=11",
+      "retrieved_at": "2026-09-14T14:32:28.823827+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/teams/5/games/stats?division_id=12",
+      "retrieved_at": "2026-09-14T14:32:30.600500+00:00",
+      "sha256": "040f0af27ecceca9ea4feba850d04d82eca1711406409add458f5f22df5e30de"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/teams/5/games/stats?division_id=35",
+      "retrieved_at": "2026-09-14T14:32:31.277805+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1499/stats",
+      "retrieved_at": "2026-09-14T14:32:33.208207+00:00",
+      "sha256": "e52c7ac0ce7249de4fe07dcf0c19ad7498c2b5c349b330cd336bebba75a39811"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1502/stats",
+      "retrieved_at": "2026-09-14T14:32:34.575317+00:00",
+      "sha256": "b48b232595db2921425386f93c0774e2053689a14467f1cfce0637eea86e32c1"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1375/stats",
+      "retrieved_at": "2026-09-14T14:32:35.732329+00:00",
+      "sha256": "3823c4ac698dbb904f9c591901187ebd46efc54c19d4bb537d99d8aa5de1f409"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1380/stats",
+      "retrieved_at": "2026-09-14T14:32:37.104493+00:00",
+      "sha256": "9e0a243a4d731b23f68f3380e50505157142fc751ba25555a566fcc703a48a15"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1384/stats",
+      "retrieved_at": "2026-09-14T14:32:38.310793+00:00",
+      "sha256": "f1986920f28e3ac4b187da1119facd19677b71cd5e346ce3473743b8794d8068"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1389/stats",
+      "retrieved_at": "2026-09-14T14:32:39.744139+00:00",
+      "sha256": "a8952c1a351bb2dd9ea4843be64a5b943edb94f9ce81555b211faea1044da880"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1391/stats",
+      "retrieved_at": "2026-09-14T14:32:41.045764+00:00",
+      "sha256": "0eff2f7270209f5cf0fb7e0468966d430e325c5ece56f1d63a4f6997f8de81e8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1396/stats",
+      "retrieved_at": "2026-09-14T14:32:42.194674+00:00",
+      "sha256": "d2207c26e3d63c692433dcf102a1c7ae7d1db65ef834f60a6a1d22a7d1ba8d8c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1397/stats",
+      "retrieved_at": "2026-09-14T14:32:43.590666+00:00",
+      "sha256": "5f626edab22942c04f95d2abfa3bbf068fe7d87be49327726b8b5a9c20e18cde"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1399/stats",
+      "retrieved_at": "2026-09-14T14:32:44.947987+00:00",
+      "sha256": "f51fd4c3cce2b24a98ae305414474e8b1d3bbf9797754271dc18217b257d25be"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1401/stats",
+      "retrieved_at": "2026-09-14T14:32:46.046466+00:00",
+      "sha256": "68223f56dfdd387f0cc9b047005cf9727c2f6d8daaaabc826f15e5f18b0d7591"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1403/stats",
+      "retrieved_at": "2026-09-14T14:32:47.384975+00:00",
+      "sha256": "138f0e271a96001e65b9299a91773c700be2877e0bf0a5fd3faeace2c0445951"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1405/stats",
+      "retrieved_at": "2026-09-14T14:32:48.623540+00:00",
+      "sha256": "6a66aed835b5e5c9cf47140e1019e7155be5767450046113b4c19d37144dfcc5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1408/stats",
+      "retrieved_at": "2026-09-14T14:32:49.804607+00:00",
+      "sha256": "c5ec8ba79790c2c1c149957dbd29b0b504478d830aa5eb2c3bfc651e6d71e2ef"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1411/stats",
+      "retrieved_at": "2026-09-14T14:32:51.263225+00:00",
+      "sha256": "17eb50cc3ce47ac2214b8e2fbc5b20fbe28f349f3c23f72b43859b3220279f56"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1415/stats",
+      "retrieved_at": "2026-09-14T14:32:52.271577+00:00",
+      "sha256": "82aa8234c44717b2bad10b24e6bcb303f09420a278b004f547bab20ded89249a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1421/stats",
+      "retrieved_at": "2026-09-14T14:32:53.625185+00:00",
+      "sha256": "e603d693af726c9f8f73b4cdc22f8e7107469ed0bad7489ceaad9954d7510436"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1426/stats",
+      "retrieved_at": "2026-09-14T14:32:54.804884+00:00",
+      "sha256": "47a182ceddbb854617f1293073655c71a2ce61a5bab5b8f014f5806f40d1d383"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1430/stats",
+      "retrieved_at": "2026-09-14T14:32:56.032027+00:00",
+      "sha256": "1e4b225b0976be61c7a3b0747703c7a64bd9a87fa6a37f19e8927f3972e42905"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1433/stats",
+      "retrieved_at": "2026-09-14T14:32:57.355969+00:00",
+      "sha256": "7666a559989b4a79b6a86eece3a1bcd2705c5538210ca1f4b934721fa782d9b1"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1440/stats",
+      "retrieved_at": "2026-09-14T14:32:58.715178+00:00",
+      "sha256": "b214865423e0989c64bde6ba560cf875fbde5732033e344073f0347eab01e81b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1442/stats",
+      "retrieved_at": "2026-09-14T14:32:59.996534+00:00",
+      "sha256": "2c56c0450b1e9b52df5c7ddcc09cee11bf5060d9a2a5a0b2ee6a12379372c398"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1443/stats",
+      "retrieved_at": "2026-09-14T14:33:01.417468+00:00",
+      "sha256": "7333d820d067ebd49b50665cad1d4b37b5aa0df10b21064b5f858a6fc75dc732"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1449/stats",
+      "retrieved_at": "2026-09-14T14:33:02.695857+00:00",
+      "sha256": "c88006b612aa2c6d35a2ba7587984cb94565f0075dcf54af57e51e909fcd6f66"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1451/stats",
+      "retrieved_at": "2026-09-14T14:33:03.776313+00:00",
+      "sha256": "a7250feeee5c3004144e557de1919dd48f84ebd99229b2e2ad506f2cb968c230"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1452/stats",
+      "retrieved_at": "2026-09-14T14:33:05.066701+00:00",
+      "sha256": "85e013d8434d138515ed6c35b8eda554a223f4bef981bea37249bb18674447d1"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1455/stats",
+      "retrieved_at": "2026-09-14T14:33:06.275973+00:00",
+      "sha256": "fcf742708608aa1b80f74bbec71b8c535c5c9f9b84f1903fb47686a10ebce500"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1457/stats",
+      "retrieved_at": "2026-09-14T14:33:07.745326+00:00",
+      "sha256": "690abbc9d9f41584f2bd3cde9a4c5b126030c63c385fb25d1b23c07fcbbe43ad"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1461/stats",
+      "retrieved_at": "2026-09-14T14:33:09.024578+00:00",
+      "sha256": "9a465aebe45a0365f4489cd1e33f7384f0e7fc3a4734634f6f914b09c0a76cee"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1464/stats",
+      "retrieved_at": "2026-09-14T14:33:10.214656+00:00",
+      "sha256": "9e0705478ab6dd42b77dcb05896362b9f3687d2b258b3e7f2d8346c84224e57d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1471/stats",
+      "retrieved_at": "2026-09-14T14:33:11.420525+00:00",
+      "sha256": "6a8a42f79eac68ea284051a735f26e951d0bee7e6f3d9d722164fde6ce438928"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1475/stats",
+      "retrieved_at": "2026-09-14T14:33:12.635492+00:00",
+      "sha256": "6bc2af9c2852a7d071c44354fac123fd124b130adaf30e4506f3fbe1e59bc6cc"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1477/stats",
+      "retrieved_at": "2026-09-14T14:33:13.999014+00:00",
+      "sha256": "0f587b7948d04365675d212bf3a8c56d823e0e07eab505effea537433db3d69b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1480/stats",
+      "retrieved_at": "2026-09-14T14:33:15.306650+00:00",
+      "sha256": "d163f0d06de1c1e46e05736edd5e3ba625f74496a6aec38a4a1f5c62cd1b2208"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1484/stats",
+      "retrieved_at": "2026-09-14T14:33:16.374998+00:00",
+      "sha256": "d85215bcdfc91da87485a8592e46d7220d25e63ecf13f92fffac4ac228ed9c04"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1503/stats",
+      "retrieved_at": "2026-09-14T14:33:17.813095+00:00",
+      "sha256": "e6d1ec325bca0274e9386d7431a0fc5fa111b0a21d44460e9eeea25e31b83a31"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1489/stats",
+      "retrieved_at": "2026-09-14T14:33:19.016624+00:00",
+      "sha256": "ab15ac3d32e6b3ba841da231a7cc9f6533ee3beac1c34aed4d094e7a6031899b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1493/stats",
+      "retrieved_at": "2026-09-14T14:33:20.117935+00:00",
+      "sha256": "120c405bcdf117aa9699b2f838a78e9d63971ca9d703120d69e4b846cc1030e7"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6316/stats",
+      "retrieved_at": "2026-09-14T14:33:21.451445+00:00",
+      "sha256": "af2e4ccd2d30828975e0f48101c26920eda78ce112ecf4b22c7b4140a76d1c44"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6317/stats",
+      "retrieved_at": "2026-09-14T14:33:22.917109+00:00",
+      "sha256": "6484bc80950804ff4746a06e7d11422d210204fe4f7f583b7ce6a39992301be6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6318/stats",
+      "retrieved_at": "2026-09-14T14:33:24.172915+00:00",
+      "sha256": "dd793b305c3d36bc5c988e7551741f1bfcff6f9604dfeafe9dd530a3829d16af"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6319/stats",
+      "retrieved_at": "2026-09-14T14:33:25.595225+00:00",
+      "sha256": "a521eee55c0e72f84663d85181d95e835787d2dcf883473e47e79ad8b7f433ba"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1496/stats",
+      "retrieved_at": "2026-09-14T14:33:26.619915+00:00",
+      "sha256": "d9f231649225e4ea7f242f8cce948bcd0be1fd95b048e59e971c991e3a3332a2"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1497/stats",
+      "retrieved_at": "2026-09-14T14:33:28.192893+00:00",
+      "sha256": "87186b8b403b4ff5498a08ed1aeca6597c07eb87f3571644a23d21a0fae6af4e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1498/stats",
+      "retrieved_at": "2026-09-14T14:33:29.311006+00:00",
+      "sha256": "ef572f280f01def4bc904612dbbfe8bbadc443e9971618d8beaf21bfaef5ddff"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1500/stats",
+      "retrieved_at": "2026-09-14T14:33:30.788499+00:00",
+      "sha256": "33c17887cb99595a059df68a99a8961e34cc04ee7c80d1d207cefefdf287c8a1"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1501/stats",
+      "retrieved_at": "2026-09-14T14:33:31.840127+00:00",
+      "sha256": "40bee718e9c2767539aabec419390b0bbe72569f121191f306783f3d0485155a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1371/stats",
+      "retrieved_at": "2026-09-14T14:33:33.089589+00:00",
+      "sha256": "41391768e6e0def63995b850c15c63759b5b63a6330d495d57003d6e0cc2ad17"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1372/stats",
+      "retrieved_at": "2026-09-14T14:33:34.568511+00:00",
+      "sha256": "24c59edfb0a3f8cb6769e40b33bfe7af577980e95f6ee2e42285ce2e7c0e872d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1373/stats",
+      "retrieved_at": "2026-09-14T14:33:35.697530+00:00",
+      "sha256": "56eb07ee2cabf9979d9e56594ff241320a057a36f365c96913bc59df61d33c92"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1374/stats",
+      "retrieved_at": "2026-09-14T14:33:37.062747+00:00",
+      "sha256": "ad287ec8867dea202a812983598b357e1fe725c150cbb122632da101acfed935"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1376/stats",
+      "retrieved_at": "2026-09-14T14:33:38.207693+00:00",
+      "sha256": "c75b8e092697748f2d691dba7de34c4a37d955328ceddefa565952c073d723e5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1377/stats",
+      "retrieved_at": "2026-09-14T14:33:39.469474+00:00",
+      "sha256": "9c9a8dfaadfdd62db95c40837da1a92299f627bdc73f1d45e46a409d832ae43d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1378/stats",
+      "retrieved_at": "2026-09-14T14:33:40.805350+00:00",
+      "sha256": "9bb520e892fd1b269766ec536e7a14a60625d10c663ad6700d06d39025d2fd6d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1379/stats",
+      "retrieved_at": "2026-09-14T14:33:41.901902+00:00",
+      "sha256": "36f8967a8126a93b603bce1688d86cc828517b643c049f933d41f57debd06552"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1381/stats",
+      "retrieved_at": "2026-09-14T14:33:43.164426+00:00",
+      "sha256": "431ee4f0dbe8a25fb640175018396c9a11b43850b84236755159458de9b5a811"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1382/stats",
+      "retrieved_at": "2026-09-14T14:33:44.376882+00:00",
+      "sha256": "d3c7f40122e40113c7eed7ed18ceb12bb18a3b849450e1f73107a47bc1fc6ccc"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1383/stats",
+      "retrieved_at": "2026-09-14T14:33:45.675536+00:00",
+      "sha256": "10c1ebdf0d75907a0cbf052ff1f11183e6c1ea0fd455f263b1ac65155b0a0888"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1385/stats",
+      "retrieved_at": "2026-09-14T14:33:46.918438+00:00",
+      "sha256": "2abc320b6d92ff78dd38648c6710f355c16a1b85b921024b575a9494c68b3f29"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1386/stats",
+      "retrieved_at": "2026-09-14T14:33:48.120697+00:00",
+      "sha256": "54f089f3df815962e6e638694d66e433071324d395f1a7618f266ea11daad0a1"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1387/stats",
+      "retrieved_at": "2026-09-14T14:33:49.594544+00:00",
+      "sha256": "b44a36abac429e1077790dad590699cafb363a1312a242d26b7cee34e5280b16"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1388/stats",
+      "retrieved_at": "2026-09-14T14:33:50.759237+00:00",
+      "sha256": "6235ee919b34df721091c2b01bcc464adaec5996e1f57703052348642c8461bd"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1390/stats",
+      "retrieved_at": "2026-09-14T14:33:52.180409+00:00",
+      "sha256": "7af7ec1c54bbb918c99b8677efe3278bda63359ccb3ea9215e77b74b933a5ad2"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1392/stats",
+      "retrieved_at": "2026-09-14T14:33:53.482889+00:00",
+      "sha256": "5640d203c26b3c5e58d9f84974189682a17d70bc327eb93cc6a6dd903fb78d39"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1393/stats",
+      "retrieved_at": "2026-09-14T14:33:54.582657+00:00",
+      "sha256": "0596f01ab81ff72bf17f01efd3a57b510a6bec246c4d6d458c8e29d2c4bac22e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1394/stats",
+      "retrieved_at": "2026-09-14T14:33:56.040694+00:00",
+      "sha256": "bbdc690e122ba9bbf8374f5855e670f9b9281cd07d767d5723dde224ed4c01c2"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1395/stats",
+      "retrieved_at": "2026-09-14T14:33:57.283402+00:00",
+      "sha256": "a658532d49570c083873a9c6cdbc041b5838ca51fa45bd37a888091c0bcc097d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1398/stats",
+      "retrieved_at": "2026-09-14T14:33:58.364511+00:00",
+      "sha256": "560ab8b3f45c1288a75460b7d6bdbd8eeb85b828b03fb8704bf668dacda84dad"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1400/stats",
+      "retrieved_at": "2026-09-14T14:33:59.814551+00:00",
+      "sha256": "d37564f81eb73126ba11d1b517364f6175baa8efaaa6830d2d96f9c365191081"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1402/stats",
+      "retrieved_at": "2026-09-14T14:34:01.022763+00:00",
+      "sha256": "0ea8d28ed726f7e95df72b32104338da39846f9c602975969af3f870e936a619"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1404/stats",
+      "retrieved_at": "2026-09-14T14:34:02.407630+00:00",
+      "sha256": "a5c83ec3dda11a9b62d6de41b1b50c6f20583af75d65ccf7b59da0953b9fa783"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1406/stats",
+      "retrieved_at": "2026-09-14T14:34:03.603673+00:00",
+      "sha256": "931db5e844a874a60e0c259dc32d2a5f164cab6ebe6d7bd855fde491d911c8a4"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1407/stats",
+      "retrieved_at": "2026-09-14T14:34:04.904603+00:00",
+      "sha256": "96064e9d9e57d557c91340c486184d0aae7a6cfa99a72efd7d7f0b5e2e48b8b9"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1409/stats",
+      "retrieved_at": "2026-09-14T14:34:06.270719+00:00",
+      "sha256": "bb4bb91a34ea73e0fdff1ed448ad851ba62d6665020b0fa49ec9605d1990efd6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1410/stats",
+      "retrieved_at": "2026-09-14T14:34:07.358983+00:00",
+      "sha256": "0191ee4f91746a74d11169fcac712a65bbe45dbdffe964d09e3245278d4d086b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1412/stats",
+      "retrieved_at": "2026-09-14T14:34:08.640170+00:00",
+      "sha256": "aeeca64fbd697d6b9dd1123385f36ad5d05f9d73756bc22800e5e4acb879e433"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1413/stats",
+      "retrieved_at": "2026-09-14T14:34:09.867668+00:00",
+      "sha256": "865b7787430ef837129d157b89ca02cb42c7e52e142e7e459c99afd18438171b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1414/stats",
+      "retrieved_at": "2026-09-14T14:34:11.138134+00:00",
+      "sha256": "cdb79a647289f95a1863ad7b48d1b4bf5559454d2a8e5be140cc9cd59a2100e5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1416/stats",
+      "retrieved_at": "2026-09-14T14:34:12.471790+00:00",
+      "sha256": "df1fefc2de1b51577d23e3025da2ffc697da70c1506ca69e018352c2ffcb7d52"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1417/stats",
+      "retrieved_at": "2026-09-14T14:34:13.722675+00:00",
+      "sha256": "559c1cc4c4b2b607faed44ebd9368146de71239a0fb02d227e5e2df5e70e42dd"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1418/stats",
+      "retrieved_at": "2026-09-14T14:34:14.868988+00:00",
+      "sha256": "26a58d1956834290649ef2e9145abca2b2f85b63ccf2860f14ef78a60ba9f671"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1419/stats",
+      "retrieved_at": "2026-09-14T14:34:16.346700+00:00",
+      "sha256": "e7a65b564d9e55d2d2ef08b622da4cd549b854f969d1cbfe817855b260bd1c59"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1420/stats",
+      "retrieved_at": "2026-09-14T14:34:17.610870+00:00",
+      "sha256": "452f124f579f04227b439169279007c9e05686c334cc2811515b25a90e966e32"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1422/stats",
+      "retrieved_at": "2026-09-14T14:34:18.735926+00:00",
+      "sha256": "7e6bf889c09ce6a1a45c7b6644eff95d6e4b1f9be45e8daaf9782b5a343106f7"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1423/stats",
+      "retrieved_at": "2026-09-14T14:34:19.994296+00:00",
+      "sha256": "e875acefa651288e19a65742eb936fcdec980d7954d81c9be5bc51e0dd58f4ca"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1424/stats",
+      "retrieved_at": "2026-09-14T14:34:21.387676+00:00",
+      "sha256": "145cd9c7feb12fb1a644de16afbf7cf21b1209ccf9fa8ba23f8df4941fb6fbdb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1425/stats",
+      "retrieved_at": "2026-09-14T14:34:22.450159+00:00",
+      "sha256": "b083aa20f6ced1b2b87349e05cade19892fd7c1fc9224fae89de6ed1cca1d5f6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1427/stats",
+      "retrieved_at": "2026-09-14T14:34:23.408252+00:00",
+      "sha256": "2c608b4f4fd0830ee31d2ebc45df2065eb30742bfabaf87b19a4aba2cf1579a9"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1428/stats",
+      "retrieved_at": "2026-09-14T14:34:25.114156+00:00",
+      "sha256": "4e3f8a0c326dfd5801e16321667d7feb348fd1c3361a61dda9ad76a7c2930727"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1429/stats",
+      "retrieved_at": "2026-09-14T14:34:26.266153+00:00",
+      "sha256": "ca3f01d826783c3bd37519eaf6c140b1e9c71ad159a4272c0c892aabce52e006"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1431/stats",
+      "retrieved_at": "2026-09-14T14:34:27.526430+00:00",
+      "sha256": "74b52a29d3334fa1f6b881ccfa53d3bee10a3810cc7dd042d32b3537e241b8e3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1432/stats",
+      "retrieved_at": "2026-09-14T14:34:28.806054+00:00",
+      "sha256": "3df2217bb962e9d02309d0b336cd01b96b3cfeb69813639a6376677d28ff341b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1434/stats",
+      "retrieved_at": "2026-09-14T14:34:30.019606+00:00",
+      "sha256": "6306f1b4b008304836611249f7ab687297e087a9c600d1cd9450e99c0d2361d2"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1435/stats",
+      "retrieved_at": "2026-09-14T14:34:31.304360+00:00",
+      "sha256": "031ef626e2dbd9305afb0b932eb7888c26fdfd0fc0899c2a42853c05db5d6291"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1436/stats",
+      "retrieved_at": "2026-09-14T14:34:32.585573+00:00",
+      "sha256": "da3bb0620ce9901140022dd509ea929dfd043abe356fac4e678b25b71a57b6f3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1437/stats",
+      "retrieved_at": "2026-09-14T14:34:33.669573+00:00",
+      "sha256": "e7063eb77cf07b65511cd145869997fb2d4792190b43195be334eb12a0be4322"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1438/stats",
+      "retrieved_at": "2026-09-14T14:34:35.069421+00:00",
+      "sha256": "1ae761afd7d8266163758398387efe79efe071512c5dc0b13f502079a92beedf"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1439/stats",
+      "retrieved_at": "2026-09-14T14:34:36.002560+00:00",
+      "sha256": "68be0aa3a00c0819cb91b1a6731149d4ebb73603c55e90a4e93690883b1970c0"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1441/stats",
+      "retrieved_at": "2026-09-14T14:34:37.445761+00:00",
+      "sha256": "647935ceb94affa2da781a77acc7810f521b8c79648996f6704b259357c60518"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1444/stats",
+      "retrieved_at": "2026-09-14T14:34:38.947336+00:00",
+      "sha256": "3e49c923398a322f5af11e16846d9909137ed498bb06ce7c4aeb93b82de78576"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1445/stats",
+      "retrieved_at": "2026-09-14T14:34:40.098347+00:00",
+      "sha256": "92c7c1efeafcc276ac547f5783a412948de6f362312f323b0a9bb96eb19588ae"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1446/stats",
+      "retrieved_at": "2026-09-14T14:34:41.379581+00:00",
+      "sha256": "0e585e5e9027eef606cb264ed5cfc9c6d24608543fe70ab63bc6e8b7069b8abb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1447/stats",
+      "retrieved_at": "2026-09-14T14:34:42.589541+00:00",
+      "sha256": "f44df7dc7446b463ecc567ada9e59a8bf2baca243cb84fbe9ad1d8d829d1187a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1448/stats",
+      "retrieved_at": "2026-09-14T14:34:43.886759+00:00",
+      "sha256": "1b7c3d945c9deec9b69366056ca403c7f8ca8dfa209c82034846c3beb3d0f65c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1450/stats",
+      "retrieved_at": "2026-09-14T14:34:45.163235+00:00",
+      "sha256": "39896a10404df7769dc8330eb27e0e0d061e0a8c07c27b659bf161176b731f57"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1453/stats",
+      "retrieved_at": "2026-09-14T14:34:46.320888+00:00",
+      "sha256": "803050691dca8da1d6019234f7e3907bd205bbecf16838796844d6b021cfb9e4"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1454/stats",
+      "retrieved_at": "2026-09-14T14:34:47.245477+00:00",
+      "sha256": "5867e4f12eefd9ca064ca8bf604bfcdf31ed160fe3e480456d7107006a749591"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1456/stats",
+      "retrieved_at": "2026-09-14T14:34:48.744607+00:00",
+      "sha256": "06eaf19e6582e4995dbeb5069d548bb397aeafd0be8a49c887054e9d92d20442"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1458/stats",
+      "retrieved_at": "2026-09-14T14:34:50.015094+00:00",
+      "sha256": "2cf73c850fd4f13b4ebbeec04d9edf9e01f4cb904ed517f1b0e7f3ce4fddabf4"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1459/stats",
+      "retrieved_at": "2026-09-14T14:34:51.268399+00:00",
+      "sha256": "2d3c7eb95b6fe2b2742496b28e29a40ed111072681ca47d6be44d29ff5dbaba2"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1460/stats",
+      "retrieved_at": "2026-09-14T14:34:53.919037+00:00",
+      "sha256": "354dd331c4eabb4d6500feb824ab3f9085fb0d99f14db59f074c9657b5ce9cf6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1462/stats",
+      "retrieved_at": "2026-09-14T14:34:55.042069+00:00",
+      "sha256": "cf58d02ba1eaa41ffc64a66d3cdde16d58f345af442116a8c7473466dce3ea18"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1463/stats",
+      "retrieved_at": "2026-09-14T14:34:56.262889+00:00",
+      "sha256": "fddf613a9bac16279c1c5947907d2284dce6fcd7d13452025c5dbacca90d12eb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1465/stats",
+      "retrieved_at": "2026-09-14T14:34:57.499007+00:00",
+      "sha256": "c3f77bf8e83b0aa764900e43c3aed41ef6c4905ff605c5c921f29bd2467c9000"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1466/stats",
+      "retrieved_at": "2026-09-14T14:34:58.866377+00:00",
+      "sha256": "45807b212cab6c6940a6a74b40fcc75af4dd7e9d1b1fa28f50282ac656ea071e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1467/stats",
+      "retrieved_at": "2026-09-14T14:35:01.097646+00:00",
+      "sha256": "780d46c18fff29ccce9bf2a9e6e0342ec58720fa4cac8ab391544a0ad8746a09"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1468/stats",
+      "retrieved_at": "2026-09-14T14:35:02.268120+00:00",
+      "sha256": "cf3ba3c04d9e55868ae062975d4d57972cfef2af1dc3fdd2c99abb3a6354d427"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1469/stats",
+      "retrieved_at": "2026-09-14T14:35:03.436855+00:00",
+      "sha256": "57b1b1a4e253a67fd2a5a15463cfab307b836084990121706689b93a06a54f75"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1470/stats",
+      "retrieved_at": "2026-09-14T14:35:04.696883+00:00",
+      "sha256": "29b16a624da2ca790de5af539185a4e87635ca797cfa1410f911266c56b40c37"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1472/stats",
+      "retrieved_at": "2026-09-14T14:35:06.074273+00:00",
+      "sha256": "956910e85e38bedc5a503f5fa0876c9751ef0e534cb562a2db123ecc1b931132"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1473/stats",
+      "retrieved_at": "2026-09-14T14:35:07.161515+00:00",
+      "sha256": "49e855e088105437c9210d7ce9a80de0261d59d5acfc9a02aa00b56fdc636adc"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1474/stats",
+      "retrieved_at": "2026-09-14T14:35:08.119924+00:00",
+      "sha256": "bd65cf9765ad5ee8e534036364eb374103b9d39297ceea0e1a0e85920dbdc440"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1476/stats",
+      "retrieved_at": "2026-09-14T14:35:09.670070+00:00",
+      "sha256": "8a7fb1c46be7741fc23d893d74c3917ef09306fca3b77acf920dde4b86848e1a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1478/stats",
+      "retrieved_at": "2026-09-14T14:35:10.615922+00:00",
+      "sha256": "5c84bc27d8fa2453d4cd6e27389fdeed7354e87b046cfc147f9173003c74b15f"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1479/stats",
+      "retrieved_at": "2026-09-14T14:35:12.166738+00:00",
+      "sha256": "17398d62bb6dda9594e25aad982dcd1c0612e2f0e8447ddfc8187becb3f2e707"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1481/stats",
+      "retrieved_at": "2026-09-14T14:35:13.316145+00:00",
+      "sha256": "2041e60ab89cc7a628eb392163d5ec69a87c0cbd03fbf14b4ec0ce469046a59f"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1482/stats",
+      "retrieved_at": "2026-09-14T14:35:14.685081+00:00",
+      "sha256": "bdeb971a556ed6f41c6f5fdd1d82006e9784997349e7b703a411a4cb9ca580b3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1483/stats",
+      "retrieved_at": "2026-09-14T14:35:15.925495+00:00",
+      "sha256": "6a051500efd6e233ed78ce942f49334785d2a426749e79c0f22efbeee1b4e69d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1485/stats",
+      "retrieved_at": "2026-09-14T14:35:17.186259+00:00",
+      "sha256": "0d1ff2623d316068428aafdf6dc1310f259962f4c1155ddb8b01c0665d7e695e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1486/stats",
+      "retrieved_at": "2026-09-14T14:35:18.373865+00:00",
+      "sha256": "0882b9f543ec488810b66d0ef246f7aea1dcc579351972271d58807baee860f5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1487/stats",
+      "retrieved_at": "2026-09-14T14:35:19.673698+00:00",
+      "sha256": "2c3f93159cbd0cfad09fedf71f29d942144f98904ea45703790c8ef474658de5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1488/stats",
+      "retrieved_at": "2026-09-14T14:35:20.645248+00:00",
+      "sha256": "d586ea354690674d0c8c031bfc01ee0bbfce739c04c54d14bfdb2b70e33435e1"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1490/stats",
+      "retrieved_at": "2026-09-14T14:35:22.220341+00:00",
+      "sha256": "8eab84f698fd437a46fe82fb55c75597f11437a86088dd6207f794f5fba540ab"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1491/stats",
+      "retrieved_at": "2026-09-14T14:35:23.519090+00:00",
+      "sha256": "59796c8fb5ea825f2b119ad3ab13be58eb652facb661bd38eaa89d7a678ddf10"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1492/stats",
+      "retrieved_at": "2026-09-14T14:35:24.724765+00:00",
+      "sha256": "badd2a0c2803cb5ec09508ff043d7c8aa402a009ed00d0239642451614e9b4e6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1494/stats",
+      "retrieved_at": "2026-09-14T14:35:25.975288+00:00",
+      "sha256": "206628903913a5becfdf51bfdcd49ccdbdd1c3de3b78c6a1a1c2d61f48714eb6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1495/stats",
+      "retrieved_at": "2026-09-14T14:35:27.221703+00:00",
+      "sha256": "1d94f398c0510da08e8f484992e8feb5692fb51425feb61828f5647e57e5dba9"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6026/stats",
+      "retrieved_at": "2026-09-14T14:35:28.302159+00:00",
+      "sha256": "41681736bad5590e8b7635dfed5320332f406c50d0a49bd7338aa14f8d8307c2"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6027/stats",
+      "retrieved_at": "2026-09-14T14:35:29.813187+00:00",
+      "sha256": "7eb298fde656e59d239c7f4525c82e370edab6c964be674479e17636406fa428"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6033/stats",
+      "retrieved_at": "2026-09-14T14:35:30.912184+00:00",
+      "sha256": "f9ec8631854a4d3e39d2c55f2b4808399fb92c197208f3a90a7b1b3a5c94da67"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6034/stats",
+      "retrieved_at": "2026-09-14T14:35:32.197767+00:00",
+      "sha256": "9a0c458c0cd3f733b075e7cc8bee28a0a77f5995db3ee8b6cc5fa73505272029"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6035/stats",
+      "retrieved_at": "2026-09-14T14:35:33.457061+00:00",
+      "sha256": "e52463453fc2a72f321076fe8b169ab6a1bd05118f4bad48722073a9315a6f1d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6036/stats",
+      "retrieved_at": "2026-09-14T14:35:34.693821+00:00",
+      "sha256": "e9b55988c81f6f3458494444d940177f54d8b6459bf745c2c392d1d3664d35f4"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8635/stats",
+      "retrieved_at": "2026-09-14T14:35:36.157709+00:00",
+      "sha256": "cbae798933a53a60d743b43fcf91cda91247b54140e5196ebda2b62550cb5381"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8636/stats",
+      "retrieved_at": "2026-09-14T14:35:37.260810+00:00",
+      "sha256": "318a66a03b16a68704a1a55e31f5bb8a08e0db71a276dbc93dc006ab8b32cc92"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8637/stats",
+      "retrieved_at": "2026-09-14T14:35:38.494921+00:00",
+      "sha256": "85dd426d6a0dfd5a2516c73e4fbc92448b5ce92b50b925f5a591093f31b8ce78"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8638/stats",
+      "retrieved_at": "2026-09-14T14:35:39.746265+00:00",
+      "sha256": "9cd180e3edfeb0fc1c65e6aace8ec0229f9a99618e46bed74fd6838be84a15e9"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8639/stats",
+      "retrieved_at": "2026-09-14T14:35:40.997536+00:00",
+      "sha256": "fe20765aae9547a27c81015605af35f03036b13572724e21ee1efd60da93b8f3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8640/stats",
+      "retrieved_at": "2026-09-14T14:35:42.189448+00:00",
+      "sha256": "f5538a4b03b186dfcd6c8341967c6a0d5f0b72ac6c957a38b069369aab9aa6fe"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8641/stats",
+      "retrieved_at": "2026-09-14T14:35:43.478030+00:00",
+      "sha256": "e8dfac2288e1cdd7f9e2cb0decda69cc3c24cdd42bd1a4de94663ca93fcc0a58"
+    }
+  ],
+  "api_robots": {
+    "url": "https://api.tpbl.basketball/robots.txt",
+    "status": 404,
+    "body": "",
+    "retrieved_at": "2026-09-14T14:45:11.877087+00:00"
+  },
+  "outputs": [
+    {
+      "path": "data/processed/games.csv",
+      "bytes": 24023,
+      "sha256": "65b1716ed1eda51a7f52b583e597b63fa96bd5c2613db7795d741e8e23433ac7"
+    },
+    {
+      "path": "data/processed/player_game_logs.csv",
+      "bytes": 2925789,
+      "sha256": "fc0eecc46673c555c6ef10af1eff056d3e020e902b4c5946d3fcea3d3fd4da45"
+    },
+    {
+      "path": "data/processed/players.csv",
+      "bytes": 18173,
+      "sha256": "3834c39ecb4124e2b622c57c7f89e12410d67beb9b69a47f25cd484b7fcf31cb"
+    },
+    {
+      "path": "data/processed/roster_memberships.csv",
+      "bytes": 33382,
+      "sha256": "835de8075fd077306ea4a653c8eaf71a6c48553fdadcf72c7ffc6cbc2a36d5fa"
+    },
+    {
+      "path": "data/processed/substitution_events.csv",
+      "bytes": 3640882,
+      "sha256": "f66c6f706b535d5067a5ba97145d94fbb9c4873499883bb3713a757579a0378e"
+    },
+    {
+      "path": "data/processed/target_players_2025_26.csv",
+      "bytes": 112618,
+      "sha256": "7c2c60e9d8db83f2ebb1d0aec034dc46ec9de04fe4c3a3393606d6be05ba1d18"
+    },
+    {
+      "path": "data/processed/team_game_logs.csv",
+      "bytes": 118585,
+      "sha256": "f71d34785b9214003a8e247eb5765577154456f35007be6ba8aa455afe3be5bc"
+    },
+    {
+      "path": "data/processed/teams.csv",
+      "bytes": 612,
+      "sha256": "5f6e76458d696705c3113f3843d8212aefae9f5520108c2f7f3b78070a328078"
+    },
+    {
+      "path": "data/processed/tpbl_2025_26_analysis_ready.csv",
+      "bytes": 3203730,
+      "sha256": "5ca16848f4d4b91bec9a08f86a4746bfe4c4fa374d32ce7513ecceb4623a771e"
+    },
+    {
+      "path": "data/raw/games.csv",
+      "bytes": 201832,
+      "sha256": "f978e448666295971429ee6364510a89ae5aeea06bfb38bc36dd9e34ee5dcf95"
+    },
+    {
+      "path": "data/raw/player_game_logs.csv",
+      "bytes": 17924149,
+      "sha256": "b9172ded52ef55fafde3dc5f515ccfcfb63cf95648223e277a953ac83e88fe33"
+    },
+    {
+      "path": "data/raw/players.csv",
+      "bytes": 2594801,
+      "sha256": "b766c194c8d6b8fd021c2c08d92d2bac44cc7587bfd53ed5a3eaee09ada177e6"
+    },
+    {
+      "path": "data/raw/roster_memberships.csv",
+      "bytes": 1075091,
+      "sha256": "698ed87c7366f93d1a12c5b74065babb26582153e9a9c35e51272260f0be6f5b"
+    },
+    {
+      "path": "data/raw/team_game_logs.csv",
+      "bytes": 367653,
+      "sha256": "b8e3fdd822f0cd6cec97890fec8c30a2612f92b5fdcd753fa4cc684503ee1cef"
+    },
+    {
+      "path": "data/raw/teams.csv",
+      "bytes": 1163,
+      "sha256": "e071739179095bc43387509476780d793fdca5043503da0621865ac5cd2bf29c"
+    }
+  ],
+  "rotation_responses": [
+    {
+      "url": "https://api.tpbl.basketball/api/games/1371/broadcasts",
+      "retrieved_at": "2026-09-14T14:36:50.696564+00:00",
+      "sha256": "b26cd62522e27efeb6393de30e473b046dcc331e259bd99d746286c518f4cd21"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1372/broadcasts",
+      "retrieved_at": "2026-09-14T14:36:52.851080+00:00",
+      "sha256": "117396391f31947f7ee678d501e0136ec29402a3624a3f53634edfe81aa03ae8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1373/broadcasts",
+      "retrieved_at": "2026-09-14T14:36:55.007711+00:00",
+      "sha256": "23ec7a00ff31dff836b5ab2967cfe4f92c03c36826a76eb047be7216b5b3f957"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1374/broadcasts",
+      "retrieved_at": "2026-09-14T14:36:57.129648+00:00",
+      "sha256": "a21f0bd12032c654ab3a3c81ddcaa9191aa4174e175b7db3c1fd1993f54a1f2e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1375/broadcasts",
+      "retrieved_at": "2026-09-14T14:36:59.820541+00:00",
+      "sha256": "50fe48a586cbfb09f683c3901bf0754d5739c55d1f78c26743bd07df469dc2cb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1376/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:02.207191+00:00",
+      "sha256": "42abbc757a8bb1d75b372418c1767d8c4b07c8e0ccb4b8741ab36e1c9385cdfe"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1377/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:03.999951+00:00",
+      "sha256": "767eaf88625c76180aabb70409405e01fec8e05276b984d1c29fe7ac62756a90"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1378/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:06.108867+00:00",
+      "sha256": "c08caf9defba0d9eb2d3578f8cb40bd597e56023c0b844cf85a810034c8fa0de"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1379/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:08.192560+00:00",
+      "sha256": "31854634f02f97c150fd8998d54e1971ac2ec9272dedf915fa813ded977dca78"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1380/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:10.307129+00:00",
+      "sha256": "7c93c781e0f48149f6044546e3bc0950f37505d3ad632410724855a7925e6143"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1381/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:12.488016+00:00",
+      "sha256": "9c201b8eb8e3f8bde37a165a55bcdda29323cf2c9be9af51661bc556da8e4de1"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1382/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:14.611500+00:00",
+      "sha256": "491982ddd97cbe8680ceb58e84e635320fecd75e468fee211252ceaa50dc2e23"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1383/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:16.732524+00:00",
+      "sha256": "1867cddab54923af79fb31583373a707ec46e83afd2ab8dee1845f7225716485"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1384/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:18.873303+00:00",
+      "sha256": "c9a0427a8a76083dbc6849055669ecf598279f7ceec1b04cf33ecc25c1161b69"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1385/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:20.954664+00:00",
+      "sha256": "d5d81d199f2fc4e7665d5b65050d8b21e3d54b4c7f6dac3d7e60a503559b8c0d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1386/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:23.035145+00:00",
+      "sha256": "94828faa989f60512fcf367fe1d678a55f8c9cdc2167879eeda280d333e966cd"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1387/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:25.134683+00:00",
+      "sha256": "8d6d932573ed48cf0be9f82237d964c06ce20caa153bb8f637d64aa3c4a75c6c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1388/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:27.221273+00:00",
+      "sha256": "101e2485b9c0f25f3107fbd64dcacaca01adc315a50e3fd8fe6e71f07b848ccb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1389/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:29.026369+00:00",
+      "sha256": "ae2dbc3e825d9905b5f5bc7b57cbe78483a7b8ec667cc3b4649a230bd61664a0"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1390/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:31.080369+00:00",
+      "sha256": "76e74f646b904c0f87253a6c7ffa9a0767b24feef662620fcb1f0f01a5a0773d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1391/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:32.877386+00:00",
+      "sha256": "e541464af2d69f798d028bf6adbbd0705da85a4abb7bc6db30e623270f8bacc6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1392/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:35.096709+00:00",
+      "sha256": "5eac4cad598844bb2d1e033659ed8319fee9da2f3cb0179010fcbc7ce572d6d7"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1393/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:37.174459+00:00",
+      "sha256": "4daa1f1c28ab571cadcf2720f9dfbffae6f1258f0458ae3674e437cfe5c9c414"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1394/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:39.294630+00:00",
+      "sha256": "7db7c363d03fc46570ddfa8b1335af25827243feda1a1ff3fb4ffc088e8fa61a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1395/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:41.411110+00:00",
+      "sha256": "664dabb3d2aad187f1cbe1324e7835593ea9fd47fdbe31a1b8840dc9dbcec0e4"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1396/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:43.565230+00:00",
+      "sha256": "056309a8eb3f4cd0ae6ea585d240decbb01133690657c73ad9ec1063a758e729"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1397/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:45.688418+00:00",
+      "sha256": "9f8b84a7496154cde6df980a4c89bb9d47c8b2ca13bd5bea0263192e68434899"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1398/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:47.725129+00:00",
+      "sha256": "b82dd0c39ae7abaf6bd3f90bb5fa7a03fb6dfaae4418de53eba2ed7031f8d3a4"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1399/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:49.928951+00:00",
+      "sha256": "cbcb340d0b1c5440a00036ad906be745bff1b0098b73a86eecb70efb70bc73fb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1400/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:52.051566+00:00",
+      "sha256": "4832827de9c20a6355858b668bb204103b38855aea93d9c2ad98ec8c9c3ea069"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1401/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:54.090765+00:00",
+      "sha256": "3b3b052ca97c3b5567f686349abd26ed10816f31524b9692987833ca564e4538"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1402/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:56.152783+00:00",
+      "sha256": "a0a527783342f505d3bedc051f4003eaf8c886abe1aa0a6db418f354fe5ed1af"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1403/broadcasts",
+      "retrieved_at": "2026-09-14T14:37:58.235602+00:00",
+      "sha256": "6829e86a0ade6caa69f905a501960e922dcf39d1bb75f93e3015479bbf949995"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1404/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:00.329755+00:00",
+      "sha256": "5c19cb76b8faa49f3a8cf97ce9bdab1083e1300d8a67f44f5737a22075ea30b6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1405/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:02.469051+00:00",
+      "sha256": "5ec5efcca0039b8ec934ffed47951b90d2841c6cbc216977df84ca5c3c76abd5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1406/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:04.137901+00:00",
+      "sha256": "2b1cd71953668da15143cd82a87f805b0352c12e8d5540c90016746dce58a26b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1407/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:06.143335+00:00",
+      "sha256": "eafff77d53afbdd5dc56af67fbceb9051e4db025b27a275a3529dba47c637f01"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1408/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:07.761908+00:00",
+      "sha256": "1127a25bcdf25e5895fef2c050f4d1d755e36631f3cbf8c15291311fcab9e727"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1409/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:09.829743+00:00",
+      "sha256": "74a4e174aac20b8a773402803148eefde86dfbc119dca6434581013b2cbbbf70"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1410/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:11.933021+00:00",
+      "sha256": "2a256b58dcee8ce62df383c2c20a698b4a20cc886dfee95286bfc1bb03c6db39"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1411/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:14.049691+00:00",
+      "sha256": "845904d54c6759219988a892ae0792ed0ddac6f95efa44a6574e894a9b145b08"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1412/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:16.112058+00:00",
+      "sha256": "b1662cdd588383559ca8b9b8a2c08bf014aa56ca40ef95c143adf46136610afe"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1413/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:17.997601+00:00",
+      "sha256": "c1b71c02ab25c3f709b7d70a3e74d2873b5042913adbf2c1ac843140d14c3881"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1414/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:20.078618+00:00",
+      "sha256": "3ded1ad04c46320e000eb4480ab4b3b3f6d69140273286b17b6e0175b668730e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1415/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:23.268830+00:00",
+      "sha256": "ab627518d6ced658c28e2fd1bc33030a53cbc2dca156c30ac42536d623ece5ac"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1416/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:25.265072+00:00",
+      "sha256": "3b70e3524dacb3e6261ba4c0ada81f99c2d1adb0f1cbb46c7f27ed43c3c5bec6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1417/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:27.298291+00:00",
+      "sha256": "2ab45d52e7d11b4e2160657d911cdc3c37f21c16e31ff573b753bf76df0b8094"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1418/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:29.532151+00:00",
+      "sha256": "f323ee773beee1f2d2b6a6205ce29dc3e8d9e616ff85e718f84506a2f154127e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1419/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:31.270534+00:00",
+      "sha256": "873edcfec60d61258bb33afcb1b171a4d9193f37c0de8d2a9cc1ec30072b8fed"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1420/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:37.811636+00:00",
+      "sha256": "33afef2f4ce1a6752c425c9dc47aa2b61b2054698e564945e6d69391a394b29a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1421/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:40.017806+00:00",
+      "sha256": "13a4bd5fad972513f1421f8eff0f05c57938da9b2a2cdea63386b00c24fe4101"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1422/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:42.079754+00:00",
+      "sha256": "940a6c63bafa86470079d63c5b4b8522172480f910f85345839ec04ca1f6b936"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1423/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:44.199494+00:00",
+      "sha256": "f15765e029f965e9902f7025100054a5926d47bd6f64f1f572610d1d2476dd8b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1424/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:46.292806+00:00",
+      "sha256": "d618cf6d1d8a9ee7cd811e879cc6e3d388d959c468e5d7b575cb856092db1e3f"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1425/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:48.466239+00:00",
+      "sha256": "6e340864b1ed551021368a70312b2410e2520a715cce91a6a45b3c4f50d8dead"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1426/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:50.740713+00:00",
+      "sha256": "2e9691eecdbfcfe5bf1937463d68537e5bad47f28a13140f38dcb1584581ad52"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1427/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:52.956243+00:00",
+      "sha256": "2aad994da7f657645942f8a562b7cfa3c25ad2075aa40625c651f5c7be62179a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1428/broadcasts",
+      "retrieved_at": "2026-09-14T14:38:59.703860+00:00",
+      "sha256": "9f5bc642d8a581476ab6dfee5b3a8426df957615f1f9d799b592ca4e963cf79a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1429/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:01.851803+00:00",
+      "sha256": "ec17e021582a9358858ed36790aff2707f8958bb697429e48459201ce77ef572"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1430/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:03.909013+00:00",
+      "sha256": "9a91e919bed66c899c85514c1adaee2cee05afa19b5783814857049b5b958fb1"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1431/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:05.982116+00:00",
+      "sha256": "626be61a492d5b5fd5912d5f6d8ee84ad4fe12461f83d35c50f532cd869c47ac"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1432/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:08.015239+00:00",
+      "sha256": "210c049c955b3fed7fad6f819835558cacfcc828f0899f98925722c1b76094f5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1433/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:10.142921+00:00",
+      "sha256": "b8d777f7112a021592a37d1855253b6193c2641511b1b3da50b32716bfd52e4c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1434/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:12.186831+00:00",
+      "sha256": "fe915cb6f99849af0bd537b9663bdf79a249f0e3a2b49e7a3ebb813249407168"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1435/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:13.878311+00:00",
+      "sha256": "c91c2224ef07a3bf81119e983ba4caffbb5570c13f14945bcaa93edac2c8658f"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1436/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:16.001479+00:00",
+      "sha256": "f680411515ee6630dbc71417d05360c0cef936415b78f7f7742acf02cf2c221a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1437/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:17.926447+00:00",
+      "sha256": "f66dd2683bf3f36edec8be768137b0b61f4b21d66a3edf22912361a54346d15f"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1438/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:19.915959+00:00",
+      "sha256": "a9430c11bd008ce97889c638d84d4cab9f527f49715434f0e96c4ace58d7aab3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1439/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:21.966864+00:00",
+      "sha256": "88ba6d43e7d21973d514e1e65156d9966e6dc9b8d2548ce9fe6e400d2006f48f"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1440/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:23.751823+00:00",
+      "sha256": "d302fa648aca191770598110ce42d84cccd8032b43071e42daa6e9f829bc524d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1441/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:25.807546+00:00",
+      "sha256": "e507f79db0e428949f39f5a28690e77bace6d07c713b6eb835a18b67064fd63a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1442/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:27.835388+00:00",
+      "sha256": "39cfde44a624cdb5a274c55a8b638ecd895dc58dfeb9477a90f23115bd6b54a8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1443/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:29.424820+00:00",
+      "sha256": "35a5b8801b531eccff88ef0a4803835f10593b5a5346185bf89b62b4af2f38fd"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1444/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:31.155318+00:00",
+      "sha256": "24cb34c8e195075cedd8f3822f7e10cfa41fd81f5b43ca284bd4a0e9600fe74d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1445/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:32.828374+00:00",
+      "sha256": "8075dc0f2286cf76bf5ca6e34a903ef9dca4f55d1403ebebeace608d87f48a79"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1446/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:34.912346+00:00",
+      "sha256": "e465af83e13916fb4101c19dd54aaeb71216ff33072c6d6cedb43dcd42a7ceeb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1447/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:37.021005+00:00",
+      "sha256": "cf5dfb9080fa84bdf21af322c919fe45de5c15a9b6cf8b4014154e3d975ee8a1"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1448/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:39.147328+00:00",
+      "sha256": "0bfeafd72db2dfe64a4b649d59c6949abe6843a6ba3cfa039881d1e64ad02298"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1449/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:41.250098+00:00",
+      "sha256": "651fa36deedb6e409e9772e32c8ecb2d5716dcb940d0606f28850429047e3413"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1450/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:43.242865+00:00",
+      "sha256": "8457e80b1cdf5f81c85252c172fff9932e75f21502dcd5a939a2bb03f5101cb5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1451/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:45.513941+00:00",
+      "sha256": "f1c887828d8166554ab73e36800e313a275b72090f16e5f26c6931b083ac5696"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1452/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:47.726456+00:00",
+      "sha256": "89d84758dfee5ba9972a48944e057d99e4eb9b646ea977e010861a9cee2ae27a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1453/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:49.860692+00:00",
+      "sha256": "f8e396b63d20f778a550a633e8e6a49430e401fbe9e182f9cb8086ee66eb0094"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1454/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:51.831471+00:00",
+      "sha256": "4bb85fc5f99f907e22f80dfe0765f735b0ed7d60ff98f9b8f60cebc4a0bdef51"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1455/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:53.964255+00:00",
+      "sha256": "3bb8900cbe773bc10fc13f2e6742af85520dd9805620eb40513fd369b14eac9f"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1456/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:55.958164+00:00",
+      "sha256": "398f4fc21b50f803b45ebd2da9174b20dd261976ba034affefa895cfae0e1101"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1457/broadcasts",
+      "retrieved_at": "2026-09-14T14:39:58.056235+00:00",
+      "sha256": "24c55ce8b6e47e274aca6dd74b520f63bf36ed1f62f8d78345da851143791bd7"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1458/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:00.145735+00:00",
+      "sha256": "a9cfa50355475b7a8bde7c1bc7d66d2707eb6421a86f41f3dd5a07c4ead83eae"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1459/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:02.316318+00:00",
+      "sha256": "d70b9730cf0748d522100587e8e677ebec8a0c41bccc9900c3433f56e68b0ced"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1460/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:04.394633+00:00",
+      "sha256": "57dbb8fc6c3153104632973fa833aebf55a4e81bf6cc12f2aeba99c737ff33d6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1461/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:07.209215+00:00",
+      "sha256": "46f5d286ccf7cc7eee6cfb2840419c7dd34328c5131e07d61f7c746d716f12e8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1462/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:09.341480+00:00",
+      "sha256": "d91b27dc2f37b38b2a64bf97dd2a085e81b8d81b28380a14f8a4d4146eb85edf"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1463/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:11.450634+00:00",
+      "sha256": "f585f192efe673c1b63bfe8bbb6dffa1b17d4ee8952cc2a695980e3d4f97cb7b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1464/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:13.630462+00:00",
+      "sha256": "46d988cd5f1cbc4b24fb46539b7b843ace7e44abeb84d4d268b2e51e8561b1be"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1465/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:15.502879+00:00",
+      "sha256": "6f5489c91944d924041f4f4365a5a34aee2c9649a3218a1192d838f1cf9370d9"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1466/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:17.107961+00:00",
+      "sha256": "511efcb24fece1a6e78e97e184bfe582cc9ad8ee08c8d002315f08b823547ff3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1467/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:19.206683+00:00",
+      "sha256": "8cecf6e54a7942947c62e6d62dbe351e310a4a1a509dad7f4adb692d13b9bd89"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1468/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:21.239451+00:00",
+      "sha256": "df2d711b9fa089cf46cbf8427bf14c538b90e698cf8a6bfb1aef37b00bff3bcf"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1469/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:23.375482+00:00",
+      "sha256": "646131cf0ce28931c6c23dc58ec92f9778a398e75d2d720f4cefd33c2e607857"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1470/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:25.527783+00:00",
+      "sha256": "38b1855d273f038c6216a43759f0ba3b90086661478778c6b81f8346fcbc9520"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1471/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:27.673282+00:00",
+      "sha256": "752ed7f26d894bfd93a496e434b3077f33736bac137cd7f3c862cde62669f6a5"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1472/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:29.734540+00:00",
+      "sha256": "485e63c7da8274536d9819fadfbde0d5564df66edc1276e56ac52f715c5c76ac"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1473/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:31.413650+00:00",
+      "sha256": "a3b4325f797de0ed5d84f905fb7415b0c21db746c818d737c5b9471cf196a707"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1474/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:33.459006+00:00",
+      "sha256": "68c0b1aa89c99c40d3ab16e9dcae33481344bd0a4593682e06770ccef031c3ff"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1475/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:35.508147+00:00",
+      "sha256": "4140037aa741bc1376b454a4d8158843f71e0a74e6bbc906e2180cddf050d307"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1476/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:42.128277+00:00",
+      "sha256": "3aa51706471d9fa83eac8019a645f336fcfad97f3296f51df949de3e315d114a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1477/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:44.238828+00:00",
+      "sha256": "a09075cbe149824aa6c6efafe45e2d649e237afe5d5478b66d2e061642d2d027"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1478/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:46.292037+00:00",
+      "sha256": "d5dfb73df8db002a269d29a6cfbd4cc8c02ba7a786fa345be242ce7d362b93a6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1479/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:48.348501+00:00",
+      "sha256": "b1a1ffec3dd2c29915cddf1af59cb77874f75a15801daa7a46a01d9c40f7fe7b"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1480/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:50.420879+00:00",
+      "sha256": "b3501d90ec9e1bcff09db2985b233c2b8a59559487a3a555a4d658f690405f5e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1481/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:52.294267+00:00",
+      "sha256": "26d83019b715324b34192975701536c93bfcb6df2d41fd79f82d0ff5cdc2e918"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1482/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:54.358093+00:00",
+      "sha256": "4648effc7b0f3bccb1d810386f3bccb5c617a4c892f7bfb0ab8a8435d9db6406"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1483/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:56.512925+00:00",
+      "sha256": "99c899fa29061284cee5b7a3a0fc792935f76d04fe6ec5fe1cc28b27d8608489"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1484/broadcasts",
+      "retrieved_at": "2026-09-14T14:40:58.907484+00:00",
+      "sha256": "8493e47394da31b947a9ac1ebd7b70193f02bfedd4b4716ce7bb8d1857db2fef"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1485/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:00.990620+00:00",
+      "sha256": "c3b3a56f15cd64800a81b8c35306fab2b559711141e2af6629f5e1702408d631"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1486/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:02.914468+00:00",
+      "sha256": "0fa1bf0b9edc1cf8a47da586023054e4228866086a47c7299d5a05c212ee95cc"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1487/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:04.985534+00:00",
+      "sha256": "c9fec357cbe5af14d06f75a2c9a47398b36159b947077907608294a80cc523d6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1503/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:07.087535+00:00",
+      "sha256": "17331d3c73a769f39762c19b5da7f4856cc5b992c555f8e33630e0a29e1a36b6"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1488/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:09.067216+00:00",
+      "sha256": "cc83f737f0950dde9946aa3fa90da2cdd98d696f8b023f5043c976892c58baa7"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1489/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:11.256273+00:00",
+      "sha256": "90c2517c9f295fbe31881cd1f1447bbbf3d17b03f2a71c85143efb3995bc2bbb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1490/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:13.273802+00:00",
+      "sha256": "465bc2758feaf65212e4bc79bdbde90b7d5f9845615eab1538c46cca700498c3"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1491/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:15.477113+00:00",
+      "sha256": "af53631ea2edd47948cfed92c5362ad6855e9b784bfa2b1ee8febd38ad13f932"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1492/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:17.430980+00:00",
+      "sha256": "3280b99b7086db49212c4b2c5b5e0633542299a376219125bc870c65a9b72d0a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1493/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:19.249488+00:00",
+      "sha256": "0f75721cc63c08c65821929c5bac9a346aef91b5918befe1391a4c2f87504c6a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1494/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:21.315361+00:00",
+      "sha256": "468f6e19a6224c8936b432331989129c6d176f141189c26ff2dfc66eb6197cbf"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1495/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:23.485411+00:00",
+      "sha256": "e0de2a3109cfa098cd90aa85087f2edc26de208eb5aea276f1fd0559f43cb479"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6316/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:25.761223+00:00",
+      "sha256": "5a2515115e6121222618bd437640671ec8d515957b7b6eaeb746678fa9b0d073"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6317/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:27.946070+00:00",
+      "sha256": "efd2e6423bda13e3680b200b9c8320ca55272961237ef8836af8efd1901a776d"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6318/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:30.229002+00:00",
+      "sha256": "030eb4922b88d446f326c1a71d970a431ecbcdddb30c094bf45414531c7a02d9"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6319/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:32.409531+00:00",
+      "sha256": "effbf2b25039c41647977498640bdbcb08d609ea68d3d34a5bde2cf3e69d6cfb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6033/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:34.459044+00:00",
+      "sha256": "2e9168b7f6e9f461c9665d8ba35cca4a2759fbb71d52ff8dc1f74635ad4c6f82"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6034/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:36.553989+00:00",
+      "sha256": "ce9786dd447b64abb95d4b4a9481d90d7e24ef0135262919cfecc0785e18d544"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6035/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:38.656845+00:00",
+      "sha256": "69399214afe9c957bed9e12f08b070554048bbca60b97503790643705c1a5668"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6036/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:40.727188+00:00",
+      "sha256": "766b5e9657f8091351264733cf6ab3a07d6e6abd43ceebbfc28cf4ea62ecc276"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8635/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:42.826146+00:00",
+      "sha256": "35e4d4de837b6fe2d3356f28b53415f85ab07b7739c05b823a61ab59d75af10a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1496/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:44.884018+00:00",
+      "sha256": "5299145434a5306755398c2f5c8cb4f4c8439d8b73f77a325c41c58bcbafc71c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6026/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:46.920650+00:00",
+      "sha256": "0d215e7a705854ec61d46ff9c09aa8931e77fb70d257493ff2a9cbbc4ae3f419"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8636/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:49.008104+00:00",
+      "sha256": "abcdcf492b8590d402d3a61a4da546172a26647076a2566b2db24fabc7baf0ed"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1497/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:51.141244+00:00",
+      "sha256": "51a38f2a141775bf08e9f7ec4fe5020ceb7ed2f6d6512a2937e25938241c800c"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/6027/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:53.305896+00:00",
+      "sha256": "b142de757339a03d951ad4337fc94ec7fdb2c1c58f3b7fd1b06116cef72eddeb"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8637/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:55.445822+00:00",
+      "sha256": "c50cef42ebdd5eed6687c5e28ad4498106a7c3fb8b28997ab567f8b78c1cb53a"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1498/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:57.625472+00:00",
+      "sha256": "3be8ccfa5ec75395d33a4bada80452d3613284502217918b849b4e1892d3dde8"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8638/broadcasts",
+      "retrieved_at": "2026-09-14T14:41:59.959050+00:00",
+      "sha256": "d2e4d9883375635f921dedf9f52d9b46f94ed72322d6274a43f80b1da3217741"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1499/broadcasts",
+      "retrieved_at": "2026-09-14T14:42:02.308616+00:00",
+      "sha256": "23e47bdac52667e723e817a9ad5c24587436b6667acc4e2736875b3620d20bcf"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8639/broadcasts",
+      "retrieved_at": "2026-09-14T14:42:04.389424+00:00",
+      "sha256": "478b4af3e15f8d7352216d0e8d98025b4213661b9e119c8cce5b09b1b0af42ff"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1500/broadcasts",
+      "retrieved_at": "2026-09-14T14:42:06.463311+00:00",
+      "sha256": "049262d6a1147640816b9569d9b9e1580e84aac8733179c680321f2eeb36f479"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8640/broadcasts",
+      "retrieved_at": "2026-09-14T14:42:08.482162+00:00",
+      "sha256": "2a38be0feb44aacb61554647706090bbcc55f2a2f5c592dc8178bdd6c7fba277"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1501/broadcasts",
+      "retrieved_at": "2026-09-14T14:42:10.557231+00:00",
+      "sha256": "f5cd247458b4dda4653bef2c60eae8399d1a569e2d4e3fbe9efe96737eaf8616"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/8641/broadcasts",
+      "retrieved_at": "2026-09-14T14:42:12.590731+00:00",
+      "sha256": "1cc263158407e95e86d126a7820df71e956b285862c6ddd7b0fc11fcf1e7730e"
+    },
+    {
+      "url": "https://api.tpbl.basketball/api/games/1502/broadcasts",
+      "retrieved_at": "2026-09-14T14:42:14.653474+00:00",
+      "sha256": "d9038347fa811175737bc9789aa41ddd0d739fcc39603e4b9f35a798a559d055"
+    }
+  ]
+}

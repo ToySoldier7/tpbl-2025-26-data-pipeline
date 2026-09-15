@@ -1,0 +1,47 @@
+{
+  "teams": 7,
+  "players": 140,
+  "games": 150,
+  "player_game_rows": 4059,
+  "player_appearances": 3318,
+  "team_game_rows": 300,
+  "start_date": "2025-10-03",
+  "end_date": "2026-06-06",
+  "Leopards_games": 42,
+  "target_appearances": {
+    "McCullough": 28,
+    "Diallo": 28,
+    "Miller": 36,
+    "Kromah": 35
+  },
+  "collection_failures": [
+    {
+      "endpoint": "players/99",
+      "error": "HTTPError",
+      "optional_enrichment": true
+    },
+    {
+      "endpoint": "players/10885",
+      "error": "HTTPError",
+      "optional_enrichment": true
+    },
+    {
+      "endpoint": "players/14437",
+      "error": "HTTPError",
+      "optional_enrichment": true
+    }
+  ],
+  "validation_failures": 0,
+  "validation_warnings": 3,
+  "manual_checks": 120,
+  "manual_failures": 0,
+  "rotations": {
+    "events": 29806,
+    "games": 150,
+    "sequence_issues": 70,
+    "player_checks": 3330,
+    "within_one_second": 3302,
+    "games_with_sequence_issues": 12,
+    "collection_failures": []
+  }
+}
