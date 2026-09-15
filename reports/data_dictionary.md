@@ -582,6 +582,239 @@ These are approximate box-score ratings, never player or pairing ratings.
 | tpbl_2025_26_analysis_ready | team_ORtg | Estimated offensive rating | 100 * team_points / possessions_est | source/normalized | points/100 possessions | float | Unavailable / not listed / undefined denominator; never imputed zero |
 | tpbl_2025_26_analysis_ready | team_DRtg | Estimated defensive rating | 100 * opponent_points / opponent_possessions_est | source/normalized | points/100 opponent possessions | float | Unavailable / not listed / undefined denominator; never imputed zero |
 | tpbl_2025_26_analysis_ready | team_Net_Rating | Difference between estimated ratings | ORtg - DRtg | source/normalized | points/100 possessions | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | season | Canonical season label | season schedule | source/normalized | 2025-26 | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | season_id | Official API season ID | /seasons | source/normalized | 2 | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | division_id | Official competition division ID | /events/2/divisions | source/normalized | phase identity | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | competition_phase | Competition phase label | division mapping | derived | preseason/regular_season/play_in/playoffs/finals | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | game_id | Stable official game ID | schedule | source/normalized | join key | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | game_date | Taiwan local calendar date | gamed_at | source/normalized | YYYY-MM-DD | date | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | periods | periods | official API metadata or documented join | source/normalized | field-specific | int64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_id | Stable identity; namespaces are not interchangeable | official API field | source/normalized | identifier | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team | Original game team name | schedule team.name | source/normalized | Chinese text | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | opponent_id | Stable identity; namespaces are not interchangeable | official API field | source/normalized | identifier | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | opponent | Original opposing team name | schedule opposing team.name | source/normalized | Chinese text | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | home_away | Official schedule side | schedule home_team/away_team IDs | source/normalized | home/away | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_url | Preserved source statistic | url | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | player_id | Stable identity; namespaces are not interchangeable | official API field | source/normalized | identifier | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | player_name_original | Original Chinese name preserved verbatim | API name | source/normalized | text | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | gohoops_roster_id | Stable identity; namespaces are not interchangeable | official API field | source/normalized | identifier | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | points | score | box total.score | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | FGM | field goals made | box total.field_goals_made | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | FGA | field goals attempted | box total.field_goals_attempted | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | two_PM | two pointers made | box total.two_pointers_made | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | two_PA | two pointers attempted | box total.two_pointers_attempted | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | three_PM | three pointers made | box total.three_pointers_made | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | three_PA | three pointers attempted | box total.three_pointers_attempted | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | FTM | free throws made | box total.free_throws_made | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | FTA | free throws attempted | box total.free_throws_attempted | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | OREB | offensive rebounds | box total.offensive_rebounds | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | DREB | defensive rebounds | box total.defensive_rebounds | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | REB | rebounds | box total.rebounds | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | AST | assists | box total.assists | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | STL | steals | box total.steals | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | BLK | blocks | box total.blocks | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | TOV | turnovers | box total.turnovers | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | PF | fouls | box total.fouls | source/normalized | count | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | plus_minus | Actual individual score differential while on court | players.total.plus_minus | source/normalized | points | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | FG_pct | Shooting percentage | made / attempted | derived | ratio 0–1 | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | two_P_pct | Shooting percentage | made / attempted | derived | ratio 0–1 | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | three_P_pct | Shooting percentage | made / attempted | derived | ratio 0–1 | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | FT_pct | Shooting percentage | made / attempted | derived | ratio 0–1 | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_FG_pct | Preserved source statistic | FG_pct | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_P_pct | Preserved source statistic | two_P_pct | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_P_pct | Preserved source statistic | three_P_pct | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_FT_pct | Preserved source statistic | FT_pct | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | minutes | Recorded playing time | time_on_court / 60 | derived | minutes | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | time_on_court_seconds | Recorded playing time | box total time_on_court | source/normalized | seconds | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | starter | Listed starting player | is_starting | source/normalized | true/false | boolean | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_field_goals_missed | Preserved source statistic | field_goals_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_missed | Preserved source statistic | two_pointers_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_missed | Preserved source statistic | three_pointers_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_free_throws_missed | Preserved source statistic | free_throws_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_defensive_fouls | Preserved source statistic | defensive_fouls | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_offensive_fouls | Preserved source statistic | offensive_fouls | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_personal_fouls | Preserved source statistic | personal_fouls | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_points_in_paint | Preserved source statistic | points_in_paint | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_second_chance_points | Preserved source statistic | second_chance_points | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_fast_break_points | Preserved source statistic | fast_break_points | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_efficiency | Preserved source statistic | efficiency | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_efg | Preserved source statistic | efg | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_tsp | Preserved source statistic | tsp | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_pir | Preserved source statistic | pir | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_field_goals_made_in_the_paint | Preserved source statistic | field_goals_made_in_the_paint | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_field_goals_missed_in_the_paint | Preserved source statistic | field_goals_missed_in_the_paint | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_field_goals_attempted_in_the_paint | Preserved source statistic | field_goals_attempted_in_the_paint | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_field_goals_made_on_fast_break | Preserved source statistic | field_goals_made_on_fast_break | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_field_goals_missed_on_fast_break | Preserved source statistic | field_goals_missed_on_fast_break | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_field_goals_attempted_on_fast_break | Preserved source statistic | field_goals_attempted_on_fast_break | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_field_goals_made_on_second_chance | Preserved source statistic | field_goals_made_on_second_chance | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_field_goals_missed_on_second_chance | Preserved source statistic | field_goals_missed_on_second_chance | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_field_goals_attempted_on_second_chance | Preserved source statistic | field_goals_attempted_on_second_chance | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_technical_fouls | Preserved source statistic | technical_fouls | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_unsportsmanlike_fouls | Preserved source statistic | unsportsmanlike_fouls | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_disqualifying_fouls | Preserved source statistic | disqualifying_fouls | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_bad_pass_turnovers | Preserved source statistic | bad_pass_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_ball_handling_turnovers | Preserved source statistic | ball_handling_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_out_of_bounds_turnovers | Preserved source statistic | out_of_bounds_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_travel_turnovers | Preserved source statistic | travel_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_seconds_turnovers | Preserved source statistic | three_seconds_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_five_seconds_turnovers | Preserved source statistic | five_seconds_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_back_court_turnovers | Preserved source statistic | back_court_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_offensive_goal_tending_turnovers | Preserved source statistic | offensive_goal_tending_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_double_dribble_turnovers | Preserved source statistic | double_dribble_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_carry_turnovers | Preserved source statistic | carry_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_offensive_foul_turnovers | Preserved source statistic | offensive_foul_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_other_turnovers | Preserved source statistic | other_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_points_off_turnovers | Preserved source statistic | points_off_turnovers | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_jump_shot_made | Preserved source statistic | two_pointers_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_jump_shot_missed | Preserved source statistic | two_pointers_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_jump_shot_attempted | Preserved source statistic | two_pointers_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_jump_shot_made | Preserved source statistic | three_pointers_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_jump_shot_missed | Preserved source statistic | three_pointers_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_jump_shot_attempted | Preserved source statistic | three_pointers_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_layup_made | Preserved source statistic | two_pointers_layup_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_layup_missed | Preserved source statistic | two_pointers_layup_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_layup_attempted | Preserved source statistic | two_pointers_layup_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_driving_layup_made | Preserved source statistic | two_pointers_driving_layup_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_driving_layup_missed | Preserved source statistic | two_pointers_driving_layup_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_driving_layup_attempted | Preserved source statistic | two_pointers_driving_layup_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_dunk_made | Preserved source statistic | two_pointers_dunk_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_dunk_missed | Preserved source statistic | two_pointers_dunk_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_dunk_attempted | Preserved source statistic | two_pointers_dunk_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_dunk_made | Preserved source statistic | two_pointers_putback_dunk_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_dunk_missed | Preserved source statistic | two_pointers_putback_dunk_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_dunk_attempted | Preserved source statistic | two_pointers_putback_dunk_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_tip_in_made | Preserved source statistic | two_pointers_putback_tip_in_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_tip_in_missed | Preserved source statistic | two_pointers_putback_tip_in_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_tip_in_attempted | Preserved source statistic | two_pointers_putback_tip_in_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_alley_oop_made | Preserved source statistic | two_pointers_alley_oop_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_alley_oop_missed | Preserved source statistic | two_pointers_alley_oop_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_alley_oop_attempted | Preserved source statistic | two_pointers_alley_oop_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_hook_shot_made | Preserved source statistic | two_pointers_hook_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_hook_shot_missed | Preserved source statistic | two_pointers_hook_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_hook_shot_attempted | Preserved source statistic | two_pointers_hook_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_hook_shot_made | Preserved source statistic | three_pointers_hook_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_hook_shot_missed | Preserved source statistic | three_pointers_hook_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_hook_shot_attempted | Preserved source statistic | three_pointers_hook_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_floating_jump_shot_made | Preserved source statistic | two_pointers_floating_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_floating_jump_shot_missed | Preserved source statistic | two_pointers_floating_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_floating_jump_shot_attempted | Preserved source statistic | two_pointers_floating_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_floating_jump_shot_made | Preserved source statistic | three_pointers_floating_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_floating_jump_shot_missed | Preserved source statistic | three_pointers_floating_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_floating_jump_shot_attempted | Preserved source statistic | three_pointers_floating_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_fadeaway_jump_shot_made | Preserved source statistic | two_pointers_fadeaway_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_fadeaway_jump_shot_missed | Preserved source statistic | two_pointers_fadeaway_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_fadeaway_jump_shot_attempted | Preserved source statistic | two_pointers_fadeaway_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_fadeaway_jump_shot_made | Preserved source statistic | three_pointers_fadeaway_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_fadeaway_jump_shot_missed | Preserved source statistic | three_pointers_fadeaway_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_fadeaway_jump_shot_attempted | Preserved source statistic | three_pointers_fadeaway_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_turnaround_jump_shot_made | Preserved source statistic | two_pointers_turnaround_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_turnaround_jump_shot_missed | Preserved source statistic | two_pointers_turnaround_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_turnaround_jump_shot_attempted | Preserved source statistic | two_pointers_turnaround_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_turnaround_jump_shot_made | Preserved source statistic | three_pointers_turnaround_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_turnaround_jump_shot_missed | Preserved source statistic | three_pointers_turnaround_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_turnaround_jump_shot_attempted | Preserved source statistic | three_pointers_turnaround_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_step_back_jump_shot_made | Preserved source statistic | two_pointers_step_back_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_step_back_jump_shot_missed | Preserved source statistic | two_pointers_step_back_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_step_back_jump_shot_attempted | Preserved source statistic | two_pointers_step_back_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_step_back_jump_shot_made | Preserved source statistic | three_pointers_step_back_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_step_back_jump_shot_missed | Preserved source statistic | three_pointers_step_back_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_step_back_jump_shot_attempted | Preserved source statistic | three_pointers_step_back_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_pull_up_jump_shot_made | Preserved source statistic | two_pointers_pull_up_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_pull_up_jump_shot_missed | Preserved source statistic | two_pointers_pull_up_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_two_pointers_pull_up_jump_shot_attempted | Preserved source statistic | two_pointers_pull_up_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_pull_up_jump_shot_made | Preserved source statistic | three_pointers_pull_up_jump_shot_made | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_pull_up_jump_shot_missed | Preserved source statistic | three_pointers_pull_up_jump_shot_missed | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | source_three_pointers_pull_up_jump_shot_attempted | Preserved source statistic | three_pointers_pull_up_jump_shot_attempted | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | result | Player team game result | team score versus opponent score | source/normalized | W/L | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | appearance | Positive recorded playing time | time_on_court > 0 | derived | true/false | boolean | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | participation_status | Playing-time/stat availability classification | source presence | derived | played/no_stats_listed/zero_recorded_minutes | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | eFG_pct | Effective field-goal percentage | (FGM + 0.5 * three_PM) / FGA | derived | ratio | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | TS_pct | True shooting percentage | points / (2 * (FGA + 0.44 * FTA)) | derived | ratio | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | three_PA_rate | Three-point attempt share | three_PA / FGA | derived | ratio | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | FT_rate | Free-throw attempt rate | FTA / FGA | derived | ratio | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | AST_TOV | Assist to turnover ratio | AST / TOV | derived | ratio | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | player_name_english | English name when supplied | profile/roster meta.alt_name or official team frontend | source/normalized | text | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | player_name_normalized | NFKC, trimmed whitespace, casefold name | English name if available, otherwise original | derived | text | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_points | Team score even if team lost | teams.total.won_score | source/normalized | points | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | opponent_points | Opponent score | teams.total.lost_score | source/normalized | points | integer | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | estimated_possessions | estimated possessions | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_ORtg | Estimated offensive rating | 100 * team_points / possessions_est | source/normalized | points/100 possessions | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_DRtg | Estimated defensive rating | 100 * opponent_points / opponent_possessions_est | source/normalized | points/100 opponent possessions | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_NetRtg | team NetRtg | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_FGA | team FGA | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_FTA | team FTA | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_OREB | team OREB | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_TOV | team TOV | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_REB | team REB | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_AST | team AST | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_STL | team STL | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_BLK | team BLK | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | point_differential | point differential | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_context_join_status | team context join status | official API metadata or documented join | source/normalized | field-specific | str | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_game_logs | team_context_join_reason | team context join reason | official API metadata or documented join | source/normalized | field-specific | str | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | season | Canonical season label | season schedule | source/normalized | 2025-26 | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | player_id | Stable identity; namespaces are not interchangeable | official API field | source/normalized | identifier | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | player_name | player name | official API metadata or documented join | source/normalized | field-specific | str | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | player_name_original | Original Chinese name preserved verbatim | API name | source/normalized | text | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | team | Original game team name | schedule team.name | source/normalized | Chinese text | string | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | phase_scope | phase scope | official API metadata or documented join | source/normalized | field-specific | str | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | competition_phases | competition phases | official API metadata or documented join | source/normalized | field-specific | str | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | game_log_rows | game log rows | official API metadata or documented join | source/normalized | field-specific | int64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | games_played | games played | official API metadata or documented join | source/normalized | field-specific | int64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | games_started | games started | official API metadata or documented join | source/normalized | field-specific | int64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_minutes | total minutes | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | date_start | date start | official API metadata or documented join | source/normalized | field-specific | str | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | date_end | date end | official API metadata or documented join | source/normalized | field-specific | str | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | avg_plus_minus | avg plus minus | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | matched_team_context_games | matched team context games | official API metadata or documented join | source/normalized | field-specific | int64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | unmatched_team_context_rows | unmatched team context rows | official API metadata or documented join | source/normalized | field-specific | int64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | ambiguous_team_context_rows | ambiguous team context rows | official API metadata or documented join | source/normalized | field-specific | int64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_points | total points | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_REB | total REB | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_AST | total AST | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_STL | total STL | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_BLK | total BLK | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_TOV | total TOV | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_PF | total PF | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_FGM | total FGM | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_FGA | total FGA | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_two_PM | total two PM | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_two_PA | total two PA | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_three_PM | total three PM | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_three_PA | total three PA | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_FTM | total FTM | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_FTA | total FTA | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_OREB | total OREB | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | total_DREB | total DREB | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | minutes_per_game | minutes per game | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | PPG | PPG | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | RPG | RPG | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | APG | APG | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | SPG | SPG | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | BPG | BPG | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | TOV_per_game | TOV per game | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | PF_per_game | PF per game | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | FGA_per_game | FGA per game | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | three_PA_per_game | three PA per game | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | FTA_per_game | FTA per game | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | OREB_per_game | OREB per game | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | DREB_per_game | DREB per game | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | FG_pct | Shooting percentage | made / attempted | derived | ratio 0–1 | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | two_P_pct | Shooting percentage | made / attempted | derived | ratio 0–1 | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | three_P_pct | Shooting percentage | made / attempted | derived | ratio 0–1 | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | FT_pct | Shooting percentage | made / attempted | derived | ratio 0–1 | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | three_PA_rate | Three-point attempt share | three_PA / FGA | derived | ratio | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | FT_rate | Free-throw attempt rate | FTA / FGA | derived | ratio | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | AST_TOV | Assist to turnover ratio | AST / TOV | derived | ratio | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | eFG_pct | Effective field-goal percentage | (FGM + 0.5 * three_PM) / FGA | derived | ratio | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | TS_pct | True shooting percentage | points / (2 * (FGA + 0.44 * FTA)) | derived | ratio | float | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | avg_team_ORtg | avg team ORtg | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | team_ORtg_games | team ORtg games | official API metadata or documented join | source/normalized | field-specific | int64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | avg_team_DRtg | avg team DRtg | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | team_DRtg_games | team DRtg games | official API metadata or documented join | source/normalized | field-specific | int64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | avg_team_NetRtg | avg team NetRtg | official API metadata or documented join | source/normalized | field-specific | float64 | Unavailable / not listed / undefined denominator; never imputed zero |
+| mccullough_2025_26_profile | team_NetRtg_games | team NetRtg games | official API metadata or documented join | source/normalized | field-specific | int64 | Unavailable / not listed / undefined denominator; never imputed zero |
 | substitution_events | season | Canonical season label | season schedule | source/normalized | 2025-26 | string | Unavailable / not listed / undefined denominator; never imputed zero |
 | substitution_events | game_id | Stable official game ID | schedule | source/normalized | join key | string | Unavailable / not listed / undefined denominator; never imputed zero |
 | substitution_events | division_id | Official competition division ID | /events/2/divisions | source/normalized | phase identity | integer | Unavailable / not listed / undefined denominator; never imputed zero |
@@ -594,6 +827,256 @@ These are approximate box-score ratings, never player or pairing ratings.
 | substitution_events | action | Substitution event outcome | broadcast event_outcome | source/normalized | Entering/Leaving | string | Unavailable / not listed / undefined denominator; never imputed zero |
 | substitution_events | is_overtime | Source overtime flag | broadcast is_overtime | source/normalized | true/false | boolean | Unavailable / not listed / undefined denominator; never imputed zero |
 | substitution_events | source_url | Preserved source statistic | url | source/normalized | source units (percentage fields 0–100 except source_*_pct ratios 0–1) | numeric | Unavailable / not listed / undefined denominator; never imputed zero |
+
+## McCullough derived views
+
+Both files are regenerated from canonical processed player_game_logs.csv,
+team_game_logs.csv and games.csv. All original player-game columns above retain
+their values and units. The single profile row pools all 2025–26 phases explicitly;
+filter the game-log phase column for regular-season-only research.
+
+All shooting/style ratios use season totals, never average game percentages.
+Undefined denominators are NA. Counts use count units; minutes use minutes; ratings
+use points per 100 estimated possessions; percentages are fractions. Team means
+are game-weighted context, not McCullough individual or pairing ratings. The *_games
+fields expose each rating denominator. No-stat roster entries are excluded from sums;
+zero-second entries with listed counts are retained.
+
+| dataset | column | definition_or_formula |
+| --- | --- | --- |
+| mccullough_2025_26_game_logs | season | Unchanged canonical player_game_logs.season |
+| mccullough_2025_26_game_logs | season_id | Unchanged canonical player_game_logs.season_id |
+| mccullough_2025_26_game_logs | division_id | Unchanged canonical player_game_logs.division_id |
+| mccullough_2025_26_game_logs | competition_phase | Unchanged canonical player_game_logs.competition_phase |
+| mccullough_2025_26_game_logs | game_id | Unchanged canonical player_game_logs.game_id |
+| mccullough_2025_26_game_logs | game_date | Unchanged canonical player_game_logs.game_date |
+| mccullough_2025_26_game_logs | periods | Unchanged canonical player_game_logs.periods |
+| mccullough_2025_26_game_logs | team_id | Unchanged canonical player_game_logs.team_id |
+| mccullough_2025_26_game_logs | team | Unchanged canonical player_game_logs.team |
+| mccullough_2025_26_game_logs | opponent_id | Unchanged canonical player_game_logs.opponent_id |
+| mccullough_2025_26_game_logs | opponent | Unchanged canonical player_game_logs.opponent |
+| mccullough_2025_26_game_logs | home_away | Unchanged canonical player_game_logs.home_away |
+| mccullough_2025_26_game_logs | source_url | Unchanged canonical player_game_logs.source_url |
+| mccullough_2025_26_game_logs | player_id | Unchanged canonical player_game_logs.player_id |
+| mccullough_2025_26_game_logs | player_name_original | Unchanged canonical player_game_logs.player_name_original |
+| mccullough_2025_26_game_logs | gohoops_roster_id | Unchanged canonical player_game_logs.gohoops_roster_id |
+| mccullough_2025_26_game_logs | points | Unchanged canonical player_game_logs.points |
+| mccullough_2025_26_game_logs | FGM | Unchanged canonical player_game_logs.FGM |
+| mccullough_2025_26_game_logs | FGA | Unchanged canonical player_game_logs.FGA |
+| mccullough_2025_26_game_logs | two_PM | Unchanged canonical player_game_logs.two_PM |
+| mccullough_2025_26_game_logs | two_PA | Unchanged canonical player_game_logs.two_PA |
+| mccullough_2025_26_game_logs | three_PM | Unchanged canonical player_game_logs.three_PM |
+| mccullough_2025_26_game_logs | three_PA | Unchanged canonical player_game_logs.three_PA |
+| mccullough_2025_26_game_logs | FTM | Unchanged canonical player_game_logs.FTM |
+| mccullough_2025_26_game_logs | FTA | Unchanged canonical player_game_logs.FTA |
+| mccullough_2025_26_game_logs | OREB | Unchanged canonical player_game_logs.OREB |
+| mccullough_2025_26_game_logs | DREB | Unchanged canonical player_game_logs.DREB |
+| mccullough_2025_26_game_logs | REB | Unchanged canonical player_game_logs.REB |
+| mccullough_2025_26_game_logs | AST | Unchanged canonical player_game_logs.AST |
+| mccullough_2025_26_game_logs | STL | Unchanged canonical player_game_logs.STL |
+| mccullough_2025_26_game_logs | BLK | Unchanged canonical player_game_logs.BLK |
+| mccullough_2025_26_game_logs | TOV | Unchanged canonical player_game_logs.TOV |
+| mccullough_2025_26_game_logs | PF | Unchanged canonical player_game_logs.PF |
+| mccullough_2025_26_game_logs | plus_minus | Unchanged canonical player_game_logs.plus_minus |
+| mccullough_2025_26_game_logs | FG_pct | Unchanged canonical player_game_logs.FG_pct |
+| mccullough_2025_26_game_logs | two_P_pct | Unchanged canonical player_game_logs.two_P_pct |
+| mccullough_2025_26_game_logs | three_P_pct | Unchanged canonical player_game_logs.three_P_pct |
+| mccullough_2025_26_game_logs | FT_pct | Unchanged canonical player_game_logs.FT_pct |
+| mccullough_2025_26_game_logs | source_FG_pct | Unchanged canonical player_game_logs.source_FG_pct |
+| mccullough_2025_26_game_logs | source_two_P_pct | Unchanged canonical player_game_logs.source_two_P_pct |
+| mccullough_2025_26_game_logs | source_three_P_pct | Unchanged canonical player_game_logs.source_three_P_pct |
+| mccullough_2025_26_game_logs | source_FT_pct | Unchanged canonical player_game_logs.source_FT_pct |
+| mccullough_2025_26_game_logs | minutes | Unchanged canonical player_game_logs.minutes |
+| mccullough_2025_26_game_logs | time_on_court_seconds | Unchanged canonical player_game_logs.time_on_court_seconds |
+| mccullough_2025_26_game_logs | starter | Unchanged canonical player_game_logs.starter |
+| mccullough_2025_26_game_logs | source_field_goals_missed | Unchanged canonical player_game_logs.source_field_goals_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_missed | Unchanged canonical player_game_logs.source_two_pointers_missed |
+| mccullough_2025_26_game_logs | source_three_pointers_missed | Unchanged canonical player_game_logs.source_three_pointers_missed |
+| mccullough_2025_26_game_logs | source_free_throws_missed | Unchanged canonical player_game_logs.source_free_throws_missed |
+| mccullough_2025_26_game_logs | source_defensive_fouls | Unchanged canonical player_game_logs.source_defensive_fouls |
+| mccullough_2025_26_game_logs | source_offensive_fouls | Unchanged canonical player_game_logs.source_offensive_fouls |
+| mccullough_2025_26_game_logs | source_personal_fouls | Unchanged canonical player_game_logs.source_personal_fouls |
+| mccullough_2025_26_game_logs | source_points_in_paint | Unchanged canonical player_game_logs.source_points_in_paint |
+| mccullough_2025_26_game_logs | source_second_chance_points | Unchanged canonical player_game_logs.source_second_chance_points |
+| mccullough_2025_26_game_logs | source_fast_break_points | Unchanged canonical player_game_logs.source_fast_break_points |
+| mccullough_2025_26_game_logs | source_efficiency | Unchanged canonical player_game_logs.source_efficiency |
+| mccullough_2025_26_game_logs | source_efg | Unchanged canonical player_game_logs.source_efg |
+| mccullough_2025_26_game_logs | source_tsp | Unchanged canonical player_game_logs.source_tsp |
+| mccullough_2025_26_game_logs | source_pir | Unchanged canonical player_game_logs.source_pir |
+| mccullough_2025_26_game_logs | source_field_goals_made_in_the_paint | Unchanged canonical player_game_logs.source_field_goals_made_in_the_paint |
+| mccullough_2025_26_game_logs | source_field_goals_missed_in_the_paint | Unchanged canonical player_game_logs.source_field_goals_missed_in_the_paint |
+| mccullough_2025_26_game_logs | source_field_goals_attempted_in_the_paint | Unchanged canonical player_game_logs.source_field_goals_attempted_in_the_paint |
+| mccullough_2025_26_game_logs | source_field_goals_made_on_fast_break | Unchanged canonical player_game_logs.source_field_goals_made_on_fast_break |
+| mccullough_2025_26_game_logs | source_field_goals_missed_on_fast_break | Unchanged canonical player_game_logs.source_field_goals_missed_on_fast_break |
+| mccullough_2025_26_game_logs | source_field_goals_attempted_on_fast_break | Unchanged canonical player_game_logs.source_field_goals_attempted_on_fast_break |
+| mccullough_2025_26_game_logs | source_field_goals_made_on_second_chance | Unchanged canonical player_game_logs.source_field_goals_made_on_second_chance |
+| mccullough_2025_26_game_logs | source_field_goals_missed_on_second_chance | Unchanged canonical player_game_logs.source_field_goals_missed_on_second_chance |
+| mccullough_2025_26_game_logs | source_field_goals_attempted_on_second_chance | Unchanged canonical player_game_logs.source_field_goals_attempted_on_second_chance |
+| mccullough_2025_26_game_logs | source_technical_fouls | Unchanged canonical player_game_logs.source_technical_fouls |
+| mccullough_2025_26_game_logs | source_unsportsmanlike_fouls | Unchanged canonical player_game_logs.source_unsportsmanlike_fouls |
+| mccullough_2025_26_game_logs | source_disqualifying_fouls | Unchanged canonical player_game_logs.source_disqualifying_fouls |
+| mccullough_2025_26_game_logs | source_bad_pass_turnovers | Unchanged canonical player_game_logs.source_bad_pass_turnovers |
+| mccullough_2025_26_game_logs | source_ball_handling_turnovers | Unchanged canonical player_game_logs.source_ball_handling_turnovers |
+| mccullough_2025_26_game_logs | source_out_of_bounds_turnovers | Unchanged canonical player_game_logs.source_out_of_bounds_turnovers |
+| mccullough_2025_26_game_logs | source_travel_turnovers | Unchanged canonical player_game_logs.source_travel_turnovers |
+| mccullough_2025_26_game_logs | source_three_seconds_turnovers | Unchanged canonical player_game_logs.source_three_seconds_turnovers |
+| mccullough_2025_26_game_logs | source_five_seconds_turnovers | Unchanged canonical player_game_logs.source_five_seconds_turnovers |
+| mccullough_2025_26_game_logs | source_back_court_turnovers | Unchanged canonical player_game_logs.source_back_court_turnovers |
+| mccullough_2025_26_game_logs | source_offensive_goal_tending_turnovers | Unchanged canonical player_game_logs.source_offensive_goal_tending_turnovers |
+| mccullough_2025_26_game_logs | source_double_dribble_turnovers | Unchanged canonical player_game_logs.source_double_dribble_turnovers |
+| mccullough_2025_26_game_logs | source_carry_turnovers | Unchanged canonical player_game_logs.source_carry_turnovers |
+| mccullough_2025_26_game_logs | source_offensive_foul_turnovers | Unchanged canonical player_game_logs.source_offensive_foul_turnovers |
+| mccullough_2025_26_game_logs | source_other_turnovers | Unchanged canonical player_game_logs.source_other_turnovers |
+| mccullough_2025_26_game_logs | source_points_off_turnovers | Unchanged canonical player_game_logs.source_points_off_turnovers |
+| mccullough_2025_26_game_logs | source_two_pointers_jump_shot_made | Unchanged canonical player_game_logs.source_two_pointers_jump_shot_made |
+| mccullough_2025_26_game_logs | source_two_pointers_jump_shot_missed | Unchanged canonical player_game_logs.source_two_pointers_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_jump_shot_attempted | Unchanged canonical player_game_logs.source_two_pointers_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_three_pointers_jump_shot_made | Unchanged canonical player_game_logs.source_three_pointers_jump_shot_made |
+| mccullough_2025_26_game_logs | source_three_pointers_jump_shot_missed | Unchanged canonical player_game_logs.source_three_pointers_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_three_pointers_jump_shot_attempted | Unchanged canonical player_game_logs.source_three_pointers_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_layup_made | Unchanged canonical player_game_logs.source_two_pointers_layup_made |
+| mccullough_2025_26_game_logs | source_two_pointers_layup_missed | Unchanged canonical player_game_logs.source_two_pointers_layup_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_layup_attempted | Unchanged canonical player_game_logs.source_two_pointers_layup_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_driving_layup_made | Unchanged canonical player_game_logs.source_two_pointers_driving_layup_made |
+| mccullough_2025_26_game_logs | source_two_pointers_driving_layup_missed | Unchanged canonical player_game_logs.source_two_pointers_driving_layup_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_driving_layup_attempted | Unchanged canonical player_game_logs.source_two_pointers_driving_layup_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_dunk_made | Unchanged canonical player_game_logs.source_two_pointers_dunk_made |
+| mccullough_2025_26_game_logs | source_two_pointers_dunk_missed | Unchanged canonical player_game_logs.source_two_pointers_dunk_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_dunk_attempted | Unchanged canonical player_game_logs.source_two_pointers_dunk_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_dunk_made | Unchanged canonical player_game_logs.source_two_pointers_putback_dunk_made |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_dunk_missed | Unchanged canonical player_game_logs.source_two_pointers_putback_dunk_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_dunk_attempted | Unchanged canonical player_game_logs.source_two_pointers_putback_dunk_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_tip_in_made | Unchanged canonical player_game_logs.source_two_pointers_putback_tip_in_made |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_tip_in_missed | Unchanged canonical player_game_logs.source_two_pointers_putback_tip_in_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_putback_tip_in_attempted | Unchanged canonical player_game_logs.source_two_pointers_putback_tip_in_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_alley_oop_made | Unchanged canonical player_game_logs.source_two_pointers_alley_oop_made |
+| mccullough_2025_26_game_logs | source_two_pointers_alley_oop_missed | Unchanged canonical player_game_logs.source_two_pointers_alley_oop_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_alley_oop_attempted | Unchanged canonical player_game_logs.source_two_pointers_alley_oop_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_hook_shot_made | Unchanged canonical player_game_logs.source_two_pointers_hook_shot_made |
+| mccullough_2025_26_game_logs | source_two_pointers_hook_shot_missed | Unchanged canonical player_game_logs.source_two_pointers_hook_shot_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_hook_shot_attempted | Unchanged canonical player_game_logs.source_two_pointers_hook_shot_attempted |
+| mccullough_2025_26_game_logs | source_three_pointers_hook_shot_made | Unchanged canonical player_game_logs.source_three_pointers_hook_shot_made |
+| mccullough_2025_26_game_logs | source_three_pointers_hook_shot_missed | Unchanged canonical player_game_logs.source_three_pointers_hook_shot_missed |
+| mccullough_2025_26_game_logs | source_three_pointers_hook_shot_attempted | Unchanged canonical player_game_logs.source_three_pointers_hook_shot_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_floating_jump_shot_made | Unchanged canonical player_game_logs.source_two_pointers_floating_jump_shot_made |
+| mccullough_2025_26_game_logs | source_two_pointers_floating_jump_shot_missed | Unchanged canonical player_game_logs.source_two_pointers_floating_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_floating_jump_shot_attempted | Unchanged canonical player_game_logs.source_two_pointers_floating_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_three_pointers_floating_jump_shot_made | Unchanged canonical player_game_logs.source_three_pointers_floating_jump_shot_made |
+| mccullough_2025_26_game_logs | source_three_pointers_floating_jump_shot_missed | Unchanged canonical player_game_logs.source_three_pointers_floating_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_three_pointers_floating_jump_shot_attempted | Unchanged canonical player_game_logs.source_three_pointers_floating_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_fadeaway_jump_shot_made | Unchanged canonical player_game_logs.source_two_pointers_fadeaway_jump_shot_made |
+| mccullough_2025_26_game_logs | source_two_pointers_fadeaway_jump_shot_missed | Unchanged canonical player_game_logs.source_two_pointers_fadeaway_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_fadeaway_jump_shot_attempted | Unchanged canonical player_game_logs.source_two_pointers_fadeaway_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_three_pointers_fadeaway_jump_shot_made | Unchanged canonical player_game_logs.source_three_pointers_fadeaway_jump_shot_made |
+| mccullough_2025_26_game_logs | source_three_pointers_fadeaway_jump_shot_missed | Unchanged canonical player_game_logs.source_three_pointers_fadeaway_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_three_pointers_fadeaway_jump_shot_attempted | Unchanged canonical player_game_logs.source_three_pointers_fadeaway_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_turnaround_jump_shot_made | Unchanged canonical player_game_logs.source_two_pointers_turnaround_jump_shot_made |
+| mccullough_2025_26_game_logs | source_two_pointers_turnaround_jump_shot_missed | Unchanged canonical player_game_logs.source_two_pointers_turnaround_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_turnaround_jump_shot_attempted | Unchanged canonical player_game_logs.source_two_pointers_turnaround_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_three_pointers_turnaround_jump_shot_made | Unchanged canonical player_game_logs.source_three_pointers_turnaround_jump_shot_made |
+| mccullough_2025_26_game_logs | source_three_pointers_turnaround_jump_shot_missed | Unchanged canonical player_game_logs.source_three_pointers_turnaround_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_three_pointers_turnaround_jump_shot_attempted | Unchanged canonical player_game_logs.source_three_pointers_turnaround_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_step_back_jump_shot_made | Unchanged canonical player_game_logs.source_two_pointers_step_back_jump_shot_made |
+| mccullough_2025_26_game_logs | source_two_pointers_step_back_jump_shot_missed | Unchanged canonical player_game_logs.source_two_pointers_step_back_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_step_back_jump_shot_attempted | Unchanged canonical player_game_logs.source_two_pointers_step_back_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_three_pointers_step_back_jump_shot_made | Unchanged canonical player_game_logs.source_three_pointers_step_back_jump_shot_made |
+| mccullough_2025_26_game_logs | source_three_pointers_step_back_jump_shot_missed | Unchanged canonical player_game_logs.source_three_pointers_step_back_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_three_pointers_step_back_jump_shot_attempted | Unchanged canonical player_game_logs.source_three_pointers_step_back_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_two_pointers_pull_up_jump_shot_made | Unchanged canonical player_game_logs.source_two_pointers_pull_up_jump_shot_made |
+| mccullough_2025_26_game_logs | source_two_pointers_pull_up_jump_shot_missed | Unchanged canonical player_game_logs.source_two_pointers_pull_up_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_two_pointers_pull_up_jump_shot_attempted | Unchanged canonical player_game_logs.source_two_pointers_pull_up_jump_shot_attempted |
+| mccullough_2025_26_game_logs | source_three_pointers_pull_up_jump_shot_made | Unchanged canonical player_game_logs.source_three_pointers_pull_up_jump_shot_made |
+| mccullough_2025_26_game_logs | source_three_pointers_pull_up_jump_shot_missed | Unchanged canonical player_game_logs.source_three_pointers_pull_up_jump_shot_missed |
+| mccullough_2025_26_game_logs | source_three_pointers_pull_up_jump_shot_attempted | Unchanged canonical player_game_logs.source_three_pointers_pull_up_jump_shot_attempted |
+| mccullough_2025_26_game_logs | result | Unchanged canonical player_game_logs.result |
+| mccullough_2025_26_game_logs | appearance | Unchanged canonical player_game_logs.appearance |
+| mccullough_2025_26_game_logs | participation_status | Unchanged canonical player_game_logs.participation_status |
+| mccullough_2025_26_game_logs | eFG_pct | Unchanged canonical player_game_logs.eFG_pct |
+| mccullough_2025_26_game_logs | TS_pct | Unchanged canonical player_game_logs.TS_pct |
+| mccullough_2025_26_game_logs | three_PA_rate | Unchanged canonical player_game_logs.three_PA_rate |
+| mccullough_2025_26_game_logs | FT_rate | Unchanged canonical player_game_logs.FT_rate |
+| mccullough_2025_26_game_logs | AST_TOV | Unchanged canonical player_game_logs.AST_TOV |
+| mccullough_2025_26_game_logs | player_name_english | Unchanged canonical player_game_logs.player_name_english |
+| mccullough_2025_26_game_logs | player_name_normalized | Unchanged canonical player_game_logs.player_name_normalized |
+| mccullough_2025_26_game_logs | team_points | Validated team_game_logs.team_points |
+| mccullough_2025_26_game_logs | opponent_points | Validated team_game_logs.opponent_points |
+| mccullough_2025_26_game_logs | estimated_possessions | Validated team_game_logs.possessions_est |
+| mccullough_2025_26_game_logs | team_ORtg | Validated team_game_logs.ORtg |
+| mccullough_2025_26_game_logs | team_DRtg | Validated team_game_logs.DRtg |
+| mccullough_2025_26_game_logs | team_NetRtg | Validated team_game_logs.Net_Rating |
+| mccullough_2025_26_game_logs | team_FGA | Validated team_game_logs.FGA |
+| mccullough_2025_26_game_logs | team_FTA | Validated team_game_logs.FTA |
+| mccullough_2025_26_game_logs | team_OREB | Validated team_game_logs.OREB |
+| mccullough_2025_26_game_logs | team_TOV | Validated team_game_logs.TOV |
+| mccullough_2025_26_game_logs | team_REB | Validated team_game_logs.REB |
+| mccullough_2025_26_game_logs | team_AST | Validated team_game_logs.AST |
+| mccullough_2025_26_game_logs | team_STL | Validated team_game_logs.STL |
+| mccullough_2025_26_game_logs | team_BLK | Validated team_game_logs.BLK |
+| mccullough_2025_26_game_logs | point_differential | team_points - opponent_points |
+| mccullough_2025_26_game_logs | team_context_join_status | matched / unmatched / ambiguous; requires unique team and schedule matches with consistent identities, date, season, side and scores |
+| mccullough_2025_26_game_logs | team_context_join_reason | Reason for accepted or rejected join; rejected context remains NA |
+| mccullough_2025_26_profile | season | 2025-26 |
+| mccullough_2025_26_profile | player_id | Stable website ID 10860 |
+| mccullough_2025_26_profile | player_name | Supplied English name, falling back to original |
+| mccullough_2025_26_profile | player_name_original | Preserved original Chinese name |
+| mccullough_2025_26_profile | team | Distinct canonical team names, semicolon-separated |
+| mccullough_2025_26_profile | phase_scope | all_2025_26_phases |
+| mccullough_2025_26_profile | competition_phases | Semicolon-separated observed phases |
+| mccullough_2025_26_profile | game_log_rows | Number of canonical player-game rows, including any no-stat roster entries |
+| mccullough_2025_26_profile | games_played | Count of positive-minute appearances |
+| mccullough_2025_26_profile | games_started | Sum of starter among positive-minute appearances |
+| mccullough_2025_26_profile | total_minutes | Sum of listed minutes; missing listed values propagate NA |
+| mccullough_2025_26_profile | date_start | Earliest canonical game date, YYYY-MM-DD |
+| mccullough_2025_26_profile | date_end | Latest canonical game date, YYYY-MM-DD |
+| mccullough_2025_26_profile | avg_plus_minus | Arithmetic mean of actual individual plus_minus among appearances |
+| mccullough_2025_26_profile | matched_team_context_games | Matched positive-minute appearances |
+| mccullough_2025_26_profile | unmatched_team_context_rows | Unmatched game-log rows |
+| mccullough_2025_26_profile | ambiguous_team_context_rows | Ambiguous game-log rows |
+| mccullough_2025_26_profile | total_points | Sum of points across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_REB | Sum of REB across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_AST | Sum of AST across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_STL | Sum of STL across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_BLK | Sum of BLK across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_TOV | Sum of TOV across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_PF | Sum of PF across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_FGM | Sum of FGM across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_FGA | Sum of FGA across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_two_PM | Sum of two_PM across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_two_PA | Sum of two_PA across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_three_PM | Sum of three_PM across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_three_PA | Sum of three_PA across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_FTM | Sum of FTM across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_FTA | Sum of FTA across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_OREB | Sum of OREB across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | total_DREB | Sum of DREB across listed-stat game rows; missing listed values propagate NA |
+| mccullough_2025_26_profile | minutes_per_game | total_minutes / games_played |
+| mccullough_2025_26_profile | PPG | total_points / games_played |
+| mccullough_2025_26_profile | RPG | total_REB / games_played |
+| mccullough_2025_26_profile | APG | total_AST / games_played |
+| mccullough_2025_26_profile | SPG | total_STL / games_played |
+| mccullough_2025_26_profile | BPG | total_BLK / games_played |
+| mccullough_2025_26_profile | TOV_per_game | total_TOV / games_played |
+| mccullough_2025_26_profile | PF_per_game | total_PF / games_played |
+| mccullough_2025_26_profile | FGA_per_game | total_FGA / games_played |
+| mccullough_2025_26_profile | three_PA_per_game | total_three_PA / games_played |
+| mccullough_2025_26_profile | FTA_per_game | total_FTA / games_played |
+| mccullough_2025_26_profile | OREB_per_game | total_OREB / games_played |
+| mccullough_2025_26_profile | DREB_per_game | total_DREB / games_played |
+| mccullough_2025_26_profile | FG_pct | total_FGM / total_FGA |
+| mccullough_2025_26_profile | two_P_pct | total_two_PM / total_two_PA |
+| mccullough_2025_26_profile | three_P_pct | total_three_PM / total_three_PA |
+| mccullough_2025_26_profile | FT_pct | total_FTM / total_FTA |
+| mccullough_2025_26_profile | three_PA_rate | total_three_PA / total_FGA |
+| mccullough_2025_26_profile | FT_rate | total_FTA / total_FGA |
+| mccullough_2025_26_profile | AST_TOV | total_AST / total_TOV |
+| mccullough_2025_26_profile | eFG_pct | (total_FGM + 0.5 * total_three_PM) / total_FGA |
+| mccullough_2025_26_profile | TS_pct | total_points / (2 * (total_FGA + 0.44 * total_FTA)) |
+| mccullough_2025_26_profile | avg_team_ORtg | Unweighted arithmetic mean of team_ORtg over matched positive-minute games with available rating |
+| mccullough_2025_26_profile | team_ORtg_games | Number of matched positive-minute games with nonmissing team_ORtg |
+| mccullough_2025_26_profile | avg_team_DRtg | Unweighted arithmetic mean of team_DRtg over matched positive-minute games with available rating |
+| mccullough_2025_26_profile | team_DRtg_games | Number of matched positive-minute games with nonmissing team_DRtg |
+| mccullough_2025_26_profile | avg_team_NetRtg | Unweighted arithmetic mean of team_NetRtg over matched positive-minute games with available rating |
+| mccullough_2025_26_profile | team_NetRtg_games | Number of matched positive-minute games with nonmissing team_NetRtg |
 
 Substitution events: game_id/team_id/player_id are official IDs; quarter is 1-based;
 clock_remaining_ms is remaining period time in milliseconds; event_order is the

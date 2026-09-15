@@ -1,6 +1,6 @@
 # Validation report
 
-Automated rules: 96; failures: 0;
+Automated rules: 124; failures: 0;
 warning rules: 3. Full results are in
 [validation_checks.csv](validation_checks.csv). Source data is retained unchanged
 where warnings are present. Duplicate IDs and player/game or team/game keys,

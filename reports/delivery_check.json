@@ -7,6 +7,20 @@
     "utf8_verified": true
   },
   {
+    "path": "data/processed/mccullough_2025_26_game_logs.csv",
+    "rows": 28,
+    "bytes": 32694,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
+    "path": "data/processed/mccullough_2025_26_profile.csv",
+    "rows": 1,
+    "bytes": 1447,
+    "sha256_verified": true,
+    "utf8_verified": true
+  },
+  {
     "path": "data/processed/player_game_logs.csv",
     "rows": 4059,
     "bytes": 2925789,
@@ -30,7 +44,7 @@
   {
     "path": "data/processed/substitution_events.csv",
     "rows": 29806,
-    "bytes": 3640882,
+    "bytes": 3611075,
     "sha256_verified": true,
     "utf8_verified": true
   },

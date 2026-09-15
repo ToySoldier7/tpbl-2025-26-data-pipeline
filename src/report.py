@@ -229,5 +229,42 @@ def write_dictionary(root,frames):
     text='# Data dictionary\n\nAll processed columns are enumerated below. CSV numeric columns use blank NA; IDs are\nstrings semantically even if a reader infers integers. Ratios are fractions, not\npercentage points. Source percentages are retained alongside recomputed ratios.\n\nRaw tables preserve scalar source fields and source_json (exact JSON values, including\nChinese names, nested objects and original percentage strings). Raw players has one\nrow per player with all season roster versions; roster_memberships has phase/team\nmembership grain. Caches contain full HTTP responses and are excluded from git.\n\n'
     text+='Team ratings use each side\'s own estimated possessions, not a symmetric pace estimate.\nThese are approximate box-score ratings, never player or pairing ratings.\n\n'
     text+=table(dictionary)
+    from .mccullough import LOG_NAME,PROFILE_NAME,CONTEXT,COUNTS
+    if PROFILE_NAME in frames:
+        text+='\n## McCullough derived views\n\nBoth files are regenerated from canonical processed player_game_logs.csv,\nteam_game_logs.csv and games.csv. All original player-game columns above retain\ntheir values and units. The single profile row pools all 2025–26 phases explicitly;\nfilter the game-log phase column for regular-season-only research.\n\n'
+        detail=[]
+        for col in frames[LOG_NAME]:
+            source=next((s for s,d in CONTEXT.items() if d==col),None)
+            formula=('Validated team_game_logs.'+source) if source else 'Unchanged canonical player_game_logs.'+col
+            if col=='point_differential': formula='team_points - opponent_points'
+            if col=='team_context_join_status': formula='matched / unmatched / ambiguous; requires unique team and schedule matches with consistent identities, date, season, side and scores'
+            if col=='team_context_join_reason': formula='Reason for accepted or rejected join; rejected context remains NA'
+            detail.append({'dataset':LOG_NAME,'column':col,'definition_or_formula':formula})
+        formulas={'FG_pct':'total_FGM / total_FGA','two_P_pct':'total_two_PM / total_two_PA',
+            'three_P_pct':'total_three_PM / total_three_PA','FT_pct':'total_FTM / total_FTA',
+            'eFG_pct':'(total_FGM + 0.5 * total_three_PM) / total_FGA',
+            'TS_pct':'total_points / (2 * (total_FGA + 0.44 * total_FTA))',
+            'three_PA_rate':'total_three_PA / total_FGA','FT_rate':'total_FTA / total_FGA',
+            'AST_TOV':'total_AST / total_TOV','minutes_per_game':'total_minutes / games_played',
+            'PPG':'total_points / games_played','RPG':'total_REB / games_played','APG':'total_AST / games_played',
+            'SPG':'total_STL / games_played','BPG':'total_BLK / games_played',
+            'games_played':'Count of positive-minute appearances','games_started':'Sum of starter among positive-minute appearances',
+            'total_minutes':'Sum of listed minutes; missing listed values propagate NA',
+            'avg_plus_minus':'Arithmetic mean of actual individual plus_minus among appearances',
+            'phase_scope':'all_2025_26_phases','competition_phases':'Semicolon-separated observed phases',
+            'game_log_rows':'Number of canonical player-game rows, including any no-stat roster entries',
+            'matched_team_context_games':'Matched positive-minute appearances',
+            'unmatched_team_context_rows':'Unmatched game-log rows','ambiguous_team_context_rows':'Ambiguous game-log rows',
+            'date_start':'Earliest canonical game date, YYYY-MM-DD','date_end':'Latest canonical game date, YYYY-MM-DD',
+            'season':'2025-26','player_id':'Stable website ID 10860','player_name':'Supplied English name, falling back to original',
+            'player_name_original':'Preserved original Chinese name','team':'Distinct canonical team names, semicolon-separated'}
+        for col in frames[PROFILE_NAME]:
+            formula=formulas.get(col)
+            if col.startswith('total_') and col[6:] in COUNTS: formula='Sum of '+col[6:]+' across listed-stat game rows; missing listed values propagate NA'
+            if col.endswith('_per_game') and col!='minutes_per_game': formula='total_'+col[:-9]+' / games_played'
+            if col.startswith('avg_team_'): formula='Unweighted arithmetic mean of '+col[4:]+' over matched positive-minute games with available rating'
+            if col.endswith('_games') and col.startswith('team_'): formula='Number of matched positive-minute games with nonmissing '+col[:-6]
+            detail.append({'dataset':PROFILE_NAME,'column':col,'definition_or_formula':formula})
+        text+='All shooting/style ratios use season totals, never average game percentages.\nUndefined denominators are NA. Counts use count units; minutes use minutes; ratings\nuse points per 100 estimated possessions; percentages are fractions. Team means\nare game-weighted context, not McCullough individual or pairing ratings. The *_games\nfields expose each rating denominator. No-stat roster entries are excluded from sums;\nzero-second entries with listed counts are retained.\n\n'+table(pd.DataFrame(detail))
     text+='\nSubstitution events: game_id/team_id/player_id are official IDs; quarter is 1-based;\nclock_remaining_ms is remaining period time in milliseconds; event_order is the\nsource ordering key; action is Entering/Leaving; is_overtime is the source flag.\nNo shared-time metric is derived.\n'
     (root/'reports/data_dictionary.md').write_text(text,encoding='utf-8')

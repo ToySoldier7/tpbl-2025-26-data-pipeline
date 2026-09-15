@@ -10,6 +10,7 @@ from src.validate import validate
 from src.rotations import collect_rotations
 from src.rotation_audit import audit_rotations
 from src.report import reports
+from src.mccullough import generate as generate_mccullough
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
@@ -21,9 +22,13 @@ def main():
     root=Path(__file__).resolve().parent
     bundle=collect(root,args.offline,args.refresh)
     frames,issues=transform(bundle,root)
+    mccullough_frames,mccullough_checks=generate_mccullough(root)
+    frames.update(mccullough_frames)
     failures=collect_rotations(root,bundle,args.offline,args.refresh)
     frames['substitution_events']=pd.read_csv(root/'data/processed/substitution_events.csv',dtype={'game_id':str,'player_id':str,'team_id':str})
     checks=validate(frames,bundle,root,issues)
+    checks.extend(mccullough_checks)
+    pd.DataFrame(checks).to_csv(root/'reports/validation_checks.csv',index=False)
     audit=audit_rotations(root,frames['player_game_logs'])
     audit['collection_failures']=failures
     summary=reports(root,frames,bundle,checks,audit)

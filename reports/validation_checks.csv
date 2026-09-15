@@ -95,3 +95,31 @@ sum_plus_minus_equals_five_times_margin,7,WARN,Source audit; no replacement of i
 sum_player_minutes,3,WARN,Tolerance 10 seconds per team; source timing precision
 target_logs_independent_API_comparison,0,PASS,2413 values compared; []
 Leopards_independent_team_log_comparison,0,PASS,756 values compared; []
+mccullough_canonical_values_preserved,0,PASS,Derived from canonical processed CSVs
+mccullough_identity_season,0,PASS,Derived from canonical processed CSVs
+mccullough_unique_games,0,PASS,Derived from canonical processed CSVs
+mccullough_game_count,0,PASS,Derived from canonical processed CSVs
+mccullough_dates,0,PASS,Derived from canonical processed CSVs
+mccullough_numeric_types,0,PASS,Derived from canonical processed CSVs
+mccullough_original_text,0,PASS,Derived from canonical processed CSVs
+mccullough_shooting,0,PASS,Derived from canonical processed CSVs
+mccullough_failed_joins_null,0,PASS,Derived from canonical processed CSVs
+mccullough_matched_context_values,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_points,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_REB,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_AST,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_STL,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_BLK,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_TOV,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_PF,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_FGM,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_FGA,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_two_PM,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_two_PA,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_three_PM,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_three_PA,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_FTM,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_FTA,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_OREB,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_total_DREB,0,PASS,Derived from canonical processed CSVs
+mccullough_profile_minutes,0,PASS,Derived from canonical processed CSVs

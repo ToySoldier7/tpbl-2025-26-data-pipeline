@@ -1,0 +1,177 @@
+{
+  "checks": [
+    {
+      "check": "mccullough_canonical_values_preserved",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_identity_season",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_unique_games",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_game_count",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_dates",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_numeric_types",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_original_text",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_shooting",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_failed_joins_null",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_matched_context_values",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_points",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_REB",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_AST",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_STL",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_BLK",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_TOV",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_PF",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_FGM",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_FGA",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_two_PM",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_two_PA",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_three_PM",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_three_PA",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_FTM",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_FTA",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_OREB",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_total_DREB",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    },
+    {
+      "check": "mccullough_profile_minutes",
+      "violations": 0,
+      "status": "PASS",
+      "details": "Derived from canonical processed CSVs"
+    }
+  ],
+  "joins": {
+    "matched": 28
+  },
+  "join_exceptions": [],
+  "phase_scope": "All phases in the canonical 2025\u201326 dataset; no per-game percentage averaging."
+}
