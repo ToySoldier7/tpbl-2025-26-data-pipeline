@@ -1,0 +1,16 @@
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+.cache/
+.env*
+!.env.example
+*.log
+*.tmp
+.idea/
+.vscode/
+browser-profiles/
+discovery.html
+inspect_source.py
+probe_api.py

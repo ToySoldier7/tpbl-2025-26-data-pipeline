@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Preserve delivered CSV bytes so manifest hashes survive clone on every OS.
+*.csv -text whitespace=cr-at-eol
